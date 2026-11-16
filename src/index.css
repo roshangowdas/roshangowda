@@ -1,0 +1,310 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: #000000;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+code, kbd, samp, pre, .font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+}
+
+/* CAD blueprint grid background */
+.bg-grid-cad {
+  background-image: 
+    linear-gradient(to right, rgba(212, 190, 171, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212, 190, 171, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-dots-pattern {
+  background-image: radial-gradient(rgba(212, 190, 171, 0.07) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #382620;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4f3a30;
+}
+
+/* Glassmorphism panel */
+.glass-panel {
+  background: rgba(26, 17, 18, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 190, 171, 0.1);
+}
+
+.glass-panel-elevated {
+  background: rgba(32, 21, 23, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(212, 190, 171, 0.16);
+}
+
+/* Glow utility */
+.glow-cyan, .glow-champagne {
+  box-shadow: 0 0 25px rgba(212, 190, 171, 0.25);
+}
+
+.glow-text-cyan, .glow-text-champagne {
+  text-shadow: 0 0 12px rgba(212, 190, 171, 0.5);
+}
+
+/* Corner markers for CAD vibe */
+.cad-bracket {
+  position: relative;
+}
+.cad-bracket::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid rgba(212, 190, 171, 0.6);
+  border-left: 2px solid rgba(212, 190, 171, 0.6);
+}
+.cad-bracket::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid rgba(212, 190, 171, 0.6);
+  border-right: 2px solid rgba(212, 190, 171, 0.6);
+}
+
+/* ================= PARALLAX SCROLLING SECTION ================= */
+.parallax {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.parallax__header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax__visuals {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.parallax__black-line-overflow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: transparent;
+  z-index: 10;
+}
+
+.parallax__layers {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.parallax__layer-img {
+  position: absolute;
+  top: -15%;
+  left: 0;
+  width: 100%;
+  height: 130%;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.parallax__layer-title {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.parallax__title {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(3.5rem, 11vw, 10rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #eb1b38;
+  text-shadow: 0 0 50px rgba(235, 27, 56, 0.45);
+}
+
+.parallax__fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35%;
+  background: linear-gradient(to top, #000000 15%, transparent 100%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+.parallax__content {
+  position: relative;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  z-index: 6;
+  padding: 3rem 1.5rem;
+}
+
+.osmo-icon-svg {
+  width: 56px;
+  height: 56px;
+  color: #eb1b38;
+  opacity: 0.9;
+}
+
+.osmo-credits {
+  text-align: center;
+  padding: 1.25rem;
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #9e8d82;
+  background: #000000;
+}
+
+.osmo-credits__p-a {
+  color: #eb1b38;
+  text-decoration: underline;
+}
+
+/* ================= SCROLL REEL TESTIMONIALS ANIMATIONS ================= */
+@keyframes scroll-reel-char-rise {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll-reel-exit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+}
+
+.scroll-reel-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(100%);
+  animation: scroll-reel-char-rise 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.scroll-reel-exit {
+  animation: scroll-reel-exit 0.24s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+/* ================= FILM-GRAIN ANALOG TEXTURE UTILITY ================= */
+.film-grain-texture {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+}
+
+/* ================= PRINT / ATS RESUME STYLESHEET ================= */
+@media print {
+  @page {
+    margin: 12mm 15mm;
+    size: auto;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111111 !important;
+  }
+
+  /* Hide all app chrome and overlays */
+  body * {
+    visibility: hidden;
+  }
+
+  .no-print,
+  .no-print * {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  /* Isolate printable resume canvas */
+  #printable-resume,
+  #printable-resume * {
+    visibility: visible !important;
+  }
+
+  #printable-resume {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    color: #111111 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+
+
+
+
