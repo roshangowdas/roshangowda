@@ -45,7 +45,7 @@ export default function App() {
   const [isResumeOpen, setIsResumeOpen] = useState(false);
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const [isAudioMuted, setIsAudioMuted] = useState(false);
-  const { parallaxDamping, prefersReducedMotion, isLowPowerMode, isLowBattery } = usePerformanceTier();
+  const { parallaxDamping, prefersReducedMotion } = usePerformanceTier();
   const [emailNotification, setEmailNotification] = useState<{
     show: boolean;
     text: string;
