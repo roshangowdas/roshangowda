@@ -9,8 +9,10 @@
   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝     ╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═════╝ ╚═╝  ╚═╝
 ```
 
-### ⚡ SYSTEMS ARCHITECT • FULL-STACK ENGINEER • CREATIVE DEVELOPER ⚡
-**High-performance distributed web architectures, interactive 3D graphics, and tactile digital experiences.**
+<!-- Dynamic Cyberpunk Typing SVG Banner -->
+<a href="https://github.com/roshangowdas">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=1000&color=EB1B38&center=true&vCenter=true&multiline=false&width=700&height=40&lines=⚡+SYSTEMS+ARCHITECT+%E2%80%A2+CREATIVE+DEVELOPER;🚀+GPU-ACCELERATED+WEBGL+%E2%80%A2+GLSL+SHADERS;🌐+FULL-STACK+DISTRIBUTED+MERN+ENGINEERING;📦+OPEN-SOURCE+NPM+PACKAGE+AUTHOR;🎮+60FPS+KINETIC+PHYSICS+%E2%80%A2+SYNTHETIC+AUDIO" alt="Typing SVG" />
+</a>
 
 <br/>
 
@@ -22,7 +24,7 @@
 <br/>
 
 <!-- 3D Animated Hero Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1c0a0f,100:eb1b38&height=220&section=header&text=ROSHAN%20GOWDA%20S&fontSize=62&fontAlignY=38&desc=Architecting%20Next-Gen%20Web%20Applications%20%7C%20WebGL%20%E2%80%A2%20React%20%E2%80%A2%20Distributed%20Systems&descAlignY=58&descSize=16&animation=twinkling&stroke=eb1b38&strokeWidth=2" width="100%" alt="Roshan Gowda 3D Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,45:1c0a0f,85:eb1b38,100:000000&height=220&section=header&text=ROSHAN%20GOWDA%20S&fontSize=62&fontAlignY=38&desc=Architecting%20Next-Gen%20Web%20Applications%20%7C%20WebGL%20%E2%80%A2%20React%20%E2%80%A2%20Distributed%20Systems&descAlignY=58&descSize=16&animation=twinkling&stroke=eb1b38&strokeWidth=2" width="100%" alt="Roshan Gowda 3D Header" />
 
 </div>
 
@@ -30,11 +32,21 @@
 
 <div align="center">
 
-### 🛰️ ENGINEERING VELOCITY & IMPACT
+### 🛰️ TELEMETRY SPECIFICATION // HUD READOUT
 
-| 🚀 **+35% Velocity** | 📦 **1st Published npm Package** | 🌐 **5+ Production Apps** | 🎯 **-20% Inconsistencies** |
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│  SYSTEM_IDENTIFIER : ROSHAN GOWDA S // FULL-STACK SYSTEMS ARCHITECT                    │
+│  OPERATIONAL_STATUS: 🟢 DEPLOYED // AVAILABLE FOR SOFTWARE DEVELOPER ROLES              │
+│  GRAPHICS_PIPELINE : WEBGL 2.0 // GLSL SHADERS // HTML5 CANVAS 3D ORBIT                │
+│  KINETICS_RUNTIME  : LENIS MOMENTUM SCROLL // GSAP SCRUB TIMELINES // REACT BITS        │
+│  ENGINEERING_FOCUS : HIGH-CONCURRENCY MERN // DISTRIBUTED APIS // REACT 18 COMPONENTry │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+| 🚀 **+35% Velocity** | 📦 **1st Published npm Package** | 🌐 **5+ Production Web Apps** | 🎯 **-20% Inconsistencies** |
 |:---:|:---:|:---:|:---:|
-| Accelerated engineering via AI workflows | Author of `react-status-kit` on npm | Shipped responsive web applications | Optimized cross-browser codebases |
+| Accelerated engineering via AI workflows | Author of `react-status-kit` on npm | Shipped high-performance web applications | Optimized cross-browser codebases |
 
 </div>
 
@@ -42,7 +54,7 @@
 
 ## 📐 3D ANIMATED ARCHITECTURE: HOW WE BUILT THIS PORTFOLIO
 
-The portfolio was engineered as a multi-tier, GPU-accelerated Single Page Application designed to sustain a locked **60 FPS** while running simultaneous WebGL fragment shaders, HTML5 Canvas 3D orbital projection, kinetic momentum scrolling, and synthetic Web Audio.
+The portfolio was engineered from the ground up as a multi-layered, GPU-composited web experience designed to lock at **60 FPS** on desktop and mobile while executing real-time fragment shaders, dynamic spherical canvas projections, kinetic rubberband physics, and synthesized audio.
 
 ```mermaid
 flowchart TD
@@ -56,7 +68,7 @@ flowchart TD
         Matrix["Skill Matrix Projection<br/>• Dual View Switcher (Orbit ⟷ Matrix)<br/>• Categorized Proficiency Tracks"]
     end
 
-    subgraph L3["LAYER 3: 60FPS ECO & KINETIC ENGINE"]
+    subgraph L3["LAYER 3: 60FPS ECO & KINETIC GOVERNOR"]
         Lenis["Lenis Momentum Scroll<br/>• Virtual Smooth Inertial Scroll"]
         GSAP["GSAP ScrollTrigger Scrubbing<br/>• Multi-Depth Parallax Timelines"]
         Eco["Battery & Hardware Telemetry<br/>• Battery Status API Monitoring<br/>• prefers-reduced-motion Detection<br/>• Dynamic Particle Scaling Governor"]
@@ -142,38 +154,6 @@ flowchart TD
 | **DevOps & Tooling** | Git, GitHub, npm Packaging, Rollup/Vite, Web Audio API, WebGL Shaders | Modular package publishing, asset optimization, zero-dependency audio synthesis |
 
 </div>
-
----
-
-## 🏆 FEATURED FLAGSHIP PROJECTS
-
-<br/>
-
-### 1. 🌐 Community Resource Sharing Platform
-> **Production Full-Stack Collaborative SaaS Platform** &nbsp;•&nbsp; `MERN Stack` • `MongoDB` • `Firebase Auth` • `10 REST APIs`
-
-- **Architecture:** Engineered a production-grade full-stack sharing portal with authenticated session handling and role-based permissions.
-- **Backend:** Designed and deployed **10 secure RESTful API endpoints** in Node.js/Express with schema-level payload validations.
-- **Data Layer:** Modeled relational and document structures in MongoDB with optimized query aggregation.
-- 🔗 **[Explore Repository →](https://github.com/roshangowdas)**
-
----
-
-### 2. ⚡ react-status-kit
-> **Open-Source React Component Library Published on npm** &nbsp;•&nbsp; `React` • `TypeScript` • `npm Package` • `Vite` • `Rollup`
-
-- **Zero External Dependencies:** Ultra-lightweight `< 8 KB gzipped` component library delivering accessible status transitions (Loading, Success, Error, Empty, Idle).
-- **Production Standard:** Authored with strict TypeScript types, tree-shakeable exports, and published directly to the public **npm registry**.
-- 📦 **`npm install react-status-kit`** &nbsp;•&nbsp; 🔗 **[View on npm Registry →](https://www.npmjs.com/~roshan__gowda)**
-
----
-
-### 3. 🐾 AI-PetCare Diagnostic Health Interface
-> **Interactive Diagnostic Triage & Health Monitoring Dashboard** &nbsp;•&nbsp; `HTML5` • `CSS3` • `JavaScript (ES6+)` • `Responsive UI`
-
-- **Diagnostics:** Interactive diagnostic health triage system featuring dynamic symptom logging, visual report cards, and client-side form validation.
-- **Experience:** Mobile-first responsive layouts engineered with sub-15ms DOM settling and cross-browser consistency.
-- 🔗 **[Explore Repository →](https://github.com/roshangowdas)**
 
 ---
 
