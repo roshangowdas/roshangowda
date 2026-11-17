@@ -5,11 +5,11 @@ import ScrollReelTestimonials, { ScrollReelTestimonial } from "./ui/scroll-reel-
 
 const QUANTIFIABLE_METRICS = [
   {
-    value: "+35%",
-    label: "Engineering Velocity Boost",
-    detail: "Accelerated sprint delivery and optimization using AI-assisted engineering workflows.",
-    icon: Zap,
-    tag: "DEV VELOCITY",
+    value: "< 8 KB",
+    label: "Lightweight Component Kit",
+    detail: "Authored and published react-status-kit with zero dependencies and tree-shakeable exports.",
+    icon: Package,
+    tag: "NPM PACKAGE",
     color: "#eb1b38",
   },
   {
@@ -29,24 +29,24 @@ const QUANTIFIABLE_METRICS = [
     color: "#d4beab",
   },
   {
-    value: "1st",
-    label: "Published npm Component Kit",
-    detail: "Authored and published react-status-kit to the official npm registry with zero dependencies.",
-    icon: Package,
-    tag: "OPEN SOURCE",
+    value: "100%",
+    label: "Type & Code Discipline",
+    detail: "Rigorous TypeScript interfaces, modular architecture, and predictable state transitions.",
+    icon: Zap,
+    tag: "CODE QUALITY",
     color: "#cb3837",
   },
 ];
 
 const REEL_TESTIMONIALS: ScrollReelTestimonial[] = [
   {
-    quote: "Developed and deployed 5+ responsive production interfaces using HTML5, CSS3, and JavaScript, reducing cross-browser inconsistencies by 20%.",
+    quote: "Developed and deployed responsive production web interfaces using HTML5, CSS3, and modern JavaScript, reducing cross-browser inconsistencies by 20%.",
     author: "Frontend Development Intern • Cognifyz Technologies (Dec 2025 – Jan 2026)",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
     alt: "Cognifyz Technologies Frontend Internship",
   },
   {
-    quote: "Architected 5 responsive full-stack MERN web applications, accelerating sprint delivery by 35% through modern AI-assisted engineering workflows.",
+    quote: "Engineered full-stack MERN application features, structured REST API endpoints with Express and MongoDB, and implemented reusable React components with clean state management.",
     author: "Full-Stack Developer Trainee • @ToriiMinds (2026)",
     image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80",
     alt: "@ToriiMinds Full-Stack Trainee",
@@ -67,17 +67,17 @@ export const ExperienceSection: React.FC = () => {
     >
       {/* Ambient Crimson & Deep Red Glows */}
       <div
-        className="absolute top-1/4 left-1/4 w-[550px] h-[550px] rounded-full blur-[180px] pointer-events-none opacity-20"
+        className="absolute top-1/4 left-1/4 w-[550px] h-[550px] rounded-full blur-[180px] pointer-events-none opacity-10"
         style={{
           background:
-            "radial-gradient(ellipse, rgba(235, 27, 56, 0.4) 0%, transparent 70%)",
+            "radial-gradient(ellipse, rgba(235, 27, 56, 0.3) 0%, transparent 70%)",
         }}
       />
       <div
-        className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] rounded-full blur-[180px] pointer-events-none opacity-15"
+        className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] rounded-full blur-[180px] pointer-events-none opacity-08"
         style={{
           background:
-            "radial-gradient(ellipse, rgba(235, 27, 56, 0.35) 0%, transparent 70%)",
+            "radial-gradient(ellipse, rgba(235, 27, 56, 0.25) 0%, transparent 70%)",
         }}
       />
 

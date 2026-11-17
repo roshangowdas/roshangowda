@@ -128,21 +128,21 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
 
           {/* Action Links */}
           <div className="flex flex-col gap-5 md:col-span-3 lg:col-span-3 md:justify-self-end">
-            {/* Action 1: Call Roshan */}
+            {/* Action 1: Get in Touch */}
             <a
-              href="tel:+916366309511"
+              href="mailto:0243roshan@gmail.com"
               className="group flex flex-col items-start"
             >
               <div className="flex items-center gap-2">
                 <span className="text-base font-bold text-[#eb1b38] group-hover:text-[#ff3855] transition-colors">
-                  Call Roshan
+                  Get in Touch
                 </span>
                 <div className="w-5 h-5 rounded-full bg-[#eb1b38] group-hover:bg-[#ff3855] text-white flex items-center justify-center transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 shadow-[0_0_12px_rgba(235,27,56,0.6)]">
                   <ArrowUpRight className="w-3.5 h-3.5 stroke-[2.5]" />
                 </div>
               </div>
               <span className="text-xs text-[#a89589] mt-0.5 group-hover:text-[#f5ece3] transition-colors">
-                Let&apos;s work together
+                0243roshan@gmail.com
               </span>
             </a>
 

@@ -26,12 +26,7 @@ export interface ContactLink {
 
 const DEFAULT_CONTACT_LINKS: ContactLink[] = [
   {
-    icon: Phone,
-    label: "+91 6366309511",
-    href: "tel:+916366309511",
-  },
-  {
-    icon: Headphones,
+    icon: Mail,
     label: "0243roshan@gmail.com",
     href: "mailto:0243roshan@gmail.com",
   },
@@ -864,7 +859,7 @@ export default function ContactWithGlobe({
                 Direct Channels
               </h3>
               <p className="text-xs sm:text-sm font-mono text-[#a89589] leading-relaxed max-w-sm">
-                Reach out directly via email, phone, or location. Software developer graduate associate inquiries welcome.
+                Reach out directly via email or connect online. Open to software developer roles, project inquiries, and collaborations.
               </p>
             </div>
 
@@ -933,14 +928,14 @@ export default function ContactWithGlobe({
             <div>
               <div className="flex items-center justify-between gap-2 mb-1">
                 <h3 className="text-lg font-bold font-['Inter',sans-serif] text-white uppercase tracking-tight">
-                  Transmit Message
+                  Send a Message
                 </h3>
                 <span className="text-[9px] font-mono font-bold tracking-widest text-[#eb1b38] bg-[#eb1b38]/15 px-2 py-0.5 rounded border border-[#eb1b38]/30 uppercase">
-                  DIRECT DISPATCH
+                  GET IN TOUCH
                 </span>
               </div>
               <p className="text-xs sm:text-sm font-mono text-[#a89589]">
-                Fill out the fields to deliver a direct email to 0243roshan@gmail.com.
+                Fill out the fields below to send a message directly to 0243roshan@gmail.com.
               </p>
             </div>
 

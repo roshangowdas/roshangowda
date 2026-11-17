@@ -10,17 +10,17 @@ export const AboutSection: React.FC = () => {
     >
       {/* Ambient Crimson & Deep Espresso Glows matching Landing Page */}
       <div
-        className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full blur-[160px] pointer-events-none opacity-30"
+        className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full blur-[160px] pointer-events-none opacity-12"
         style={{
           background:
-            "radial-gradient(circle, rgba(210, 24, 48, 0.5) 0%, rgba(92, 54, 46, 0.2) 50%, transparent 75%)",
+            "radial-gradient(circle, rgba(210, 24, 48, 0.35) 0%, rgba(92, 54, 46, 0.12) 50%, transparent 75%)",
         }}
       />
       <div
-        className="absolute bottom-1/4 right-1/4 w-[550px] h-[550px] rounded-full blur-[180px] pointer-events-none opacity-25"
+        className="absolute bottom-1/4 right-1/4 w-[550px] h-[550px] rounded-full blur-[180px] pointer-events-none opacity-10"
         style={{
           background:
-            "radial-gradient(circle, rgba(210, 24, 48, 0.4) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(210, 24, 48, 0.28) 0%, transparent 70%)",
         }}
       />
 
@@ -56,19 +56,20 @@ export const AboutSection: React.FC = () => {
             {/* Interactive Physical String Animation Section */}
             <div data-parallax-intro className="mt-4 sm:mt-6 max-w-xl will-change-transform">
               <TextString
-                text="I AM A FULL-STACK DEVELOPER AND INFORMATION SCIENCE & ENGINEERING UNDERGRADUATE (GRADUATING 2027) AT NAGARJUNA COLLEGE OF ENGINEERING AND TECHNOLOGY, BENGALURU. SKILLED IN BUILDING MERN STACK APPLICATIONS, DESIGNING SECURE REST APIS, DATABASE MODELING, AND AUTHOR OF THE PUBLISHED REACT-STATUS-KIT COMPONENT LIBRARY ON NPM."
+                text="I build responsive web applications, REST APIs, and developer tools using React, TypeScript, and Node.js. My work centers on clean component architectures, accessible user interfaces, and reliable state management — including publishing open-source libraries like react-status-kit on npm."
                 font={{
                   fontFamily: "'Inter', sans-serif",
                   fontSize: "17px",
-                  fontWeight: 700,
+                  fontWeight: 600,
                   lineHeight: "1.75em",
-                  letterSpacing: "0.03em",
+                  letterSpacing: "0.01em",
                 }}
                 textColor="#d6c8bc"
                 highlightWords={[
-                  "FULL-STACK DEVELOPER",
-                  "MERN STACK APPLICATIONS",
-                  "REACT-STATUS-KIT",
+                  "React",
+                  "TypeScript",
+                  "Node.js",
+                  "react-status-kit",
                 ]}
                 highlightColor="#eb1b38"
                 columnWidth={600}
@@ -120,8 +121,8 @@ export const AboutSection: React.FC = () => {
               className="mt-4 lg:mt-8 w-full max-w-sm font-mono text-xs text-[#c2b1a3] space-y-2 border-l-2 lg:border-l-0 lg:border-r-2 border-[#eb1b38] pl-3 lg:pl-0 lg:pr-3 lg:text-right will-change-transform break-words"
             >
               <span className="block text-[#f5ece3] font-bold">ROSHAN GOWDA S // BENGALURU, INDIA</span>
-              <span className="block text-[#9e8d82]">+91 6366309511 • 0243roshan@gmail.com</span>
-              <span className="block text-[#d4beab]">SEEKING SOFTWARE DEVELOPER GRADUATE ROLES</span>
+              <span className="block text-[#9e8d82]">0243roshan@gmail.com</span>
+              <span className="block text-[#d4beab]">SEEKING SOFTWARE DEVELOPER ROLES</span>
             </div>
           </motion.div>
 

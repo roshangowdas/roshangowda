@@ -536,10 +536,10 @@ export default function App() {
             {/* Ambient Crimson-Red Rim Glow focused behind head & hair */}
             <div
               data-hero-portrait-glow
-              className="absolute top-[18%] sm:top-[12%] left-1/2 -translate-x-1/2 w-[300px] h-[300px] sm:w-[460px] sm:h-[460px] lg:w-[560px] lg:h-[560px] rounded-full blur-[70px] sm:blur-[120px] pointer-events-none opacity-60"
+              className="absolute top-[18%] sm:top-[12%] left-1/2 -translate-x-1/2 w-[300px] h-[300px] sm:w-[460px] sm:h-[460px] lg:w-[560px] lg:h-[560px] rounded-full blur-[70px] sm:blur-[120px] pointer-events-none opacity-25"
               style={{
                 background:
-                  "radial-gradient(circle, rgba(210, 24, 48, 0.52) 0%, rgba(130, 25, 35, 0.28) 45%, rgba(60, 20, 25, 0.12) 65%, transparent 75%)",
+                  "radial-gradient(circle, rgba(210, 24, 48, 0.35) 0%, rgba(130, 25, 35, 0.18) 45%, rgba(60, 20, 25, 0.08) 65%, transparent 75%)",
               }}
             />
 
@@ -596,17 +596,17 @@ export default function App() {
             </span>
           </div>
 
-          {/* Tagline & Sparkle Badge */}
+          {/* Tagline & Terminal/Code Indicator */}
           <div
             data-hero-tagline
             className="flex items-center gap-2.5 sm:gap-3.5 mt-2 sm:mt-3"
           >
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-red-500/40 bg-[#140d0e]/80 backdrop-blur-md flex items-center justify-center flex-shrink-0 shadow-[0_0_18px_rgba(255,42,75,0.25)]">
-              <span className="text-red-400 text-sm sm:text-lg leading-none">✦</span>
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl border border-[#eb1b38]/30 bg-[#140d0e]/90 backdrop-blur-md flex items-center justify-center flex-shrink-0 shadow-[0_0_15px_rgba(235,27,56,0.15)]">
+              <span className="font-mono text-xs sm:text-sm font-bold text-[#eb1b38] leading-none">&gt;_</span>
             </div>
 
-            <p className="text-xs sm:text-sm text-[#c2b1a3] font-light leading-snug tracking-wide max-w-[220px] sm:max-w-[280px] drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
-              Turning ideas into powerful digital experiences.
+            <p className="text-xs sm:text-sm text-[#c2b1a3] font-normal leading-snug tracking-normal max-w-[240px] sm:max-w-[320px] drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+              Full-stack developer building responsive web apps, clean APIs, and open-source UI tools.
             </p>
           </div>
         </div>

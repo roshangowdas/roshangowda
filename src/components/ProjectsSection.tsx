@@ -161,7 +161,7 @@ export const ProjectsSection: React.FC = () => {
           <div
             className={`relative w-full ${
               activeProjectTab === "playground" ? "max-w-4xl" : "max-w-xl"
-            } bg-[#120d0f] border border-[#eb1b38]/50 rounded-2xl p-4 sm:p-6 shadow-[0_0_60px_rgba(235,27,56,0.35)] flex flex-col space-y-3.5 max-h-[88vh] overflow-y-auto transition-all duration-300`}
+            } bg-[#120d0f] border border-[#eb1b38]/40 rounded-2xl p-4 sm:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.9),0_0_25px_rgba(235,27,56,0.15)] flex flex-col space-y-3.5 max-h-[88vh] overflow-y-auto transition-all duration-300`}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Top Bar */}
@@ -259,7 +259,7 @@ export const ProjectsSection: React.FC = () => {
                         className="px-3.5 py-1.5 rounded-full bg-[#eb1b38]/20 border border-[#eb1b38]/50 text-[#eb1b38] hover:text-white hover:bg-[#eb1b38] font-mono text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer shadow-sm hover:shadow-[0_0_15px_rgba(235,27,56,0.5)]"
                       >
                         <Zap className="w-3.5 h-3.5" />
-                        <span>Experience Component ⚡</span>
+                        <span>Interactive Demo</span>
                       </button>
                       <a
                         href={selectedProject.npm}

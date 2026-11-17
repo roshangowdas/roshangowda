@@ -86,8 +86,8 @@ export const NavModals: React.FC<NavModalsProps> = ({ activeModal, onClose }) =>
                   <p className="text-xs text-zinc-400">Published npm component library react-status-kit for asynchronous UI status handling.</p>
                 </div>
                 <div className="glass-panel p-4 rounded-xl border border-white/5">
-                  <div className="font-mono text-xs text-purple-400 font-bold mb-1">03. AI-VELOCITY (+35%)</div>
-                  <p className="text-xs text-zinc-400">Trained in AI-ready engineering workflows, accelerating delivery by 35% with Antigravity and Claude.</p>
+                  <div className="font-mono text-xs text-[#eb1b38] font-bold mb-1">03. PERFORMANCE &amp; QUALITY</div>
+                  <p className="text-xs text-zinc-400">Focus on responsive design, cross-browser layout audits, and accessible UI controls.</p>
                 </div>
               </div>
 
@@ -283,7 +283,7 @@ export const NavModals: React.FC<NavModalsProps> = ({ activeModal, onClose }) =>
               <div>
                 <h3 className="text-2xl font-bold text-white">Direct Communication Channel</h3>
                 <p className="font-mono text-xs text-zinc-400 mt-1">
-                  Ready to discuss principal roles, systems architecture, or graphics engineering.
+                  Open to software developer roles, full-stack projects, and collaborations.
                 </p>
               </div>
 
@@ -321,12 +321,12 @@ export const NavModals: React.FC<NavModalsProps> = ({ activeModal, onClose }) =>
                     <span>LINKEDIN</span>
                   </a>
                   <a
-                    href={PORTFOLIO_DATA.profile.twitter}
+                    href={PORTFOLIO_DATA.profile.npm}
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center space-x-1.5 px-3 py-1.5 rounded bg-zinc-900 border border-white/10 text-zinc-300 hover:text-white"
                   >
-                    <span>X (TWITTER)</span>
+                    <span>NPM</span>
                   </a>
                 </div>
               </div>

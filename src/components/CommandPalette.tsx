@@ -134,7 +134,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
     },
     {
       id: "nav-contact",
-      title: "Jump to Direct Dispatch / Contact",
+      title: "Jump to Contact Section",
       category: "Navigation",
       shortcut: "D",
       icon: Mail,
@@ -160,13 +160,6 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
       category: "Actions",
       icon: Copy,
       action: () => copyToClipboard("0243roshan@gmail.com", "Email"),
-    },
-    {
-      id: "action-copy-phone",
-      title: "Copy Phone (+91 6366309511)",
-      category: "Actions",
-      icon: Copy,
-      action: () => copyToClipboard("+916366309511", "Phone"),
     },
     {
       id: "action-toggle-audio",
@@ -249,11 +242,11 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
         break;
       case "bio":
         output =
-          "Roshan Gowda S // Full-Stack Developer & Information Science undergraduate (graduating 2027) at NCET Bengaluru. Specializes in MERN stack, RESTful APIs, and AI-augmented velocity (+35%). Seeking Graduate Software Developer roles.";
+          "Roshan Gowda S // Full-Stack Developer & Information Science undergraduate (graduating 2027) at NCET Bengaluru. Specializes in MERN stack, RESTful APIs, and React component libraries. Seeking Software Developer roles.";
         break;
       case "skills":
         output =
-          "Core: JavaScript (ES6+), Java, Python, C, C++, SQL | Frontend: React.js, Tailwind CSS, HTML5, CSS3 | Backend: Node.js, Express.js, REST APIs, Firebase Auth, MongoDB Atlas | Tools: Git, GitHub, npm, VS Code, Antigravity, Claude Code.";
+          "Core: JavaScript (ES6+), TypeScript, Java, Python, SQL | Frontend: React.js, Tailwind CSS, HTML5, CSS3 | Backend: Node.js, Express.js, REST APIs, Firebase Auth, MongoDB Atlas | Tools: Git, GitHub, npm, Vite, VS Code, Postman.";
         break;
       case "projects":
         output =

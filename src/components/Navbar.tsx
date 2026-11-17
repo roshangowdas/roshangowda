@@ -36,7 +36,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       [
         `============================================================\n` +
         `ROSHAN GOWDA S — FULL-STACK DEVELOPER\n` +
-        `Bengaluru, Karnataka, India | +91 6366309511 | 0243roshan@gmail.com\n` +
+        `Bengaluru, Karnataka, India | 0243roshan@gmail.com\n` +
         `GitHub: https://github.com/roshangowdas | LinkedIn: https://www.linkedin.com/in/roshan-gowda-s-378343283/ | npm: https://www.npmjs.com/~roshan__gowda | Instagram: @roshan__gowda\n` +
         `============================================================\n\n` +
         `PROFESSIONAL SUMMARY:\n` +
@@ -52,17 +52,17 @@ export const Navbar: React.FC<NavbarProps> = ({
         `  Relevant Coursework: Data Structures and Algorithms, OOP, DBMS, Computer Networks, ML, UX Design\n\n` +
         `TECHNICAL SKILLS:\n` +
         `• Programming Languages: JavaScript, Java, Python, C, C++, SQL\n` +
-        `• Frontend: React.js, HTML5, CSS3, Responsive Web Design\n` +
+        `• Frontend: React.js, HTML5, CSS3, Tailwind CSS, Responsive Web Design\n` +
         `• Backend: Node.js, Express.js, RESTful APIs, Firebase Authentication\n` +
         `• Databases: MongoDB, SQL\n` +
-        `• Tools: Git, GitHub, npm, Firebase, VS Code, Antigravity, Claude Code\n\n` +
+        `• Tools: Git, GitHub, npm, Firebase, VS Code, Vite, Postman\n\n` +
         `EXPERIENCE:\n` +
         `• Frontend Development Intern | Cognifyz Technologies (Dec 2025 – Jan 2026)\n` +
         `  - Developed and deployed 5+ responsive web interfaces using HTML5, CSS3, and JavaScript.\n` +
         `  - Conducted code audits and optimization, reducing cross-browser inconsistencies by 20%.\n` +
-        `• Full-Stack Developer & AI-Ready Engineering Trainee | @ToriiMinds (2026)\n` +
+        `• Full-Stack Developer Trainee | @ToriiMinds (2026)\n` +
         `  - Built 5 responsive full-stack web applications using React.js, Node.js, Express.js, MongoDB.\n` +
-        `  - Improved development speed by 35% using AI-assisted workflows.\n\n` +
+        `  - Structured modular REST APIs and implemented responsive UI components with clean state management.\n\n` +
         `KEY PROJECTS:\n` +
         `• Community Resource Sharing Platform (2026): MERN Stack, MongoDB, Firebase Auth, 10 REST APIs\n` +
         `• react-status-kit (2026): Open-Source React component library published on npm\n` +

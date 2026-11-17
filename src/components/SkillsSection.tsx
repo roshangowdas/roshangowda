@@ -249,7 +249,7 @@ const MATRIX_CATEGORIES: MatrixCategory[] = [
     skills: [
       { name: "TypeScript", level: 88, note: "Static Types, Generics, Interfaces & Compiler Tooling", icon: "/images/tech/typescript.svg" },
       { name: "Git, GitHub & npm", level: 95, note: "Version Control, Semantic Versioning, Package Deployment", icon: "/images/tech/git.svg" },
-      { name: "AI Tooling (Antigravity / Claude)", level: 94, note: "Prompt Engineering, +35% Delivery Velocity", icon: "/images/tech/python.svg" },
+      { name: "Vite, Postman & DevTools", level: 92, note: "Modern Bundling, REST API Testing & Profiling", icon: "/images/tech/git.svg" },
     ],
   },
 ];

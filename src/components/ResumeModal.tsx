@@ -33,7 +33,7 @@ const NpmLogo = ({ className = "w-3.5 h-3.5" }: { className?: string }) => (
 
 const RAW_RESUME_TEXT = `============================================================
 ROSHAN GOWDA S — FULL-STACK DEVELOPER
-Bengaluru, Karnataka, India | +91 6366309511 | 0243roshan@gmail.com
+Bengaluru, Karnataka, India | 0243roshan@gmail.com
 GitHub: https://github.com/roshangowdas | LinkedIn: https://www.linkedin.com/in/roshan-gowda-s-378343283/ | npm: https://www.npmjs.com/~roshan__gowda | Instagram: @roshan__gowda
 ============================================================
 
@@ -56,9 +56,9 @@ EXPERIENCE:
 • Frontend Development Intern | Cognifyz Technologies (Dec 2025 – Jan 2026)
   - Developed and deployed 5+ responsive production web interfaces using HTML5, CSS3, and JavaScript.
   - Conducted code audits and optimization, reducing cross-browser inconsistencies by 20%.
-• Full-Stack Developer & AI-Ready Engineering Trainee | @ToriiMinds (2026)
+• Full-Stack Developer Trainee | @ToriiMinds (2026)
   - Built 5 responsive full-stack web applications using React.js, Node.js, Express.js, MongoDB.
-  - Improved development speed by 35% using modern AI-assisted engineering workflows.
+  - Structured modular REST APIs and implemented responsive UI components with clean state management.
 
 KEY PROJECTS:
 • Community Resource Sharing Platform (2026): MERN Stack, MongoDB, Firebase Auth, 10 REST APIs
@@ -231,10 +231,6 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                     <MapPin className="w-3 h-3 text-[#eb1b38] print:text-black" />
                     <span>Bengaluru, Karnataka, India</span>
                   </span>
-                  <a href="tel:+916366309511" className="hover:text-white transition-colors inline-flex items-center gap-1">
-                    <Phone className="w-3 h-3 text-[#eb1b38] print:text-black" />
-                    <span>+91 6366309511</span>
-                  </a>
                   <a href="mailto:0243roshan@gmail.com" className="hover:text-white transition-colors inline-flex items-center gap-1">
                     <Mail className="w-3 h-3 text-[#eb1b38] print:text-black" />
                     <span>0243roshan@gmail.com</span>
@@ -349,8 +345,8 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                     @ToriiMinds • Bengaluru, India
                   </div>
                   <ul className="list-disc list-inside text-xs sm:text-[13px] text-[#c2b1a3] print:text-black/85 space-y-1 pt-1 leading-relaxed">
-                    <li>Architected 5 responsive full-stack web applications using React.js, Node.js, Express.js, and MongoDB.</li>
-                    <li>Accelerated development delivery velocity by 35% leveraging AI-assisted engineering workflows.</li>
+                    <li>Built 5 responsive full-stack web applications using React.js, Node.js, Express.js, and MongoDB.</li>
+                    <li>Structured modular REST APIs with route controllers and implemented reusable React components with clean state management.</li>
                   </ul>
                 </div>
               </div>
