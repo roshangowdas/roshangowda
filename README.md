@@ -32,17 +32,7 @@
 
 <div align="center">
 
-### 🛰️ TELEMETRY SPECIFICATION // HUD READOUT
-
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│  SYSTEM_IDENTIFIER : ROSHAN GOWDA S // FULL-STACK SYSTEMS ARCHITECT                    │
-│  OPERATIONAL_STATUS: 🟢 DEPLOYED // AVAILABLE FOR SOFTWARE DEVELOPER ROLES              │
-│  GRAPHICS_PIPELINE : WEBGL 2.0 // GLSL SHADERS // HTML5 CANVAS 3D ORBIT                │
-│  KINETICS_RUNTIME  : LENIS MOMENTUM SCROLL // GSAP SCRUB TIMELINES // REACT BITS        │
-│  ENGINEERING_FOCUS : HIGH-CONCURRENCY MERN // DISTRIBUTED APIS // REACT 18 COMPONENTry │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-```
+### 🛰️ ENGINEERING VELOCITY & IMPACT
 
 | 🚀 **+35% Velocity** | 📦 **1st Published npm Package** | 🌐 **5+ Production Web Apps** | 🎯 **-20% Inconsistencies** |
 |:---:|:---:|:---:|:---:|
@@ -152,22 +142,6 @@ flowchart TD
 | **Backend & Microservices** | **Node.js**, Express.js, REST API Architecture, JWT, Firebase Auth | Controller routing, middleware security, payload validation, non-blocking I/O |
 | **Databases & Cloud** | **MongoDB (Mongoose ODM)**, SQL, Schemas, Firebase Cloud | Document modeling, aggregation pipelines, query optimization, data integrity |
 | **DevOps & Tooling** | Git, GitHub, npm Packaging, Rollup/Vite, Web Audio API, WebGL Shaders | Modular package publishing, asset optimization, zero-dependency audio synthesis |
-
-</div>
-
----
-
-## 📊 LIVE GITHUB TELEMETRY
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=roshangowdas&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d080a&title_color=eb1b38&icon_color=eb1b38&text_color=f5ece3" alt="Roshan's GitHub Stats" height="175" />
-&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=roshangowdas&theme=tokyonight&hide_border=true&background=0d080a&ring=eb1b38&fire=eb1b38&currStreakLabel=eb1b38&sideLabels=f5ece3&dates=a89589" alt="GitHub Streak" height="175" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=roshangowdas&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d080a&title_color=eb1b38&text_color=f5ece3" alt="Top Languages" height="150" />
 
 </div>
 
