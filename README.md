@@ -9,9 +9,9 @@
   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝     ╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═════╝ ╚═╝  ╚═╝
 ```
 
-<!-- Dynamic Cyberpunk Typing SVG Banner -->
+<!-- Dynamic Typing SVG Banner -->
 <a href="https://github.com/roshangowdas">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=1000&color=EB1B38&center=true&vCenter=true&multiline=false&width=700&height=40&lines=⚡+SYSTEMS+ARCHITECT+%E2%80%A2+CREATIVE+DEVELOPER;🚀+GPU-ACCELERATED+WEBGL+%E2%80%A2+GLSL+SHADERS;🌐+FULL-STACK+DISTRIBUTED+MERN+ENGINEERING;📦+OPEN-SOURCE+NPM+PACKAGE+AUTHOR;🎮+60FPS+KINETIC+PHYSICS+%E2%80%A2+SYNTHETIC+AUDIO" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=1000&color=EB1B38&center=true&vCenter=true&multiline=false&width=650&height=45&lines=FULL-STACK+DEVELOPER+(MERN+STACK);REACT.JS+-+NODE.JS+-+TYPESCRIPT+-+MONGODB;AUTHOR+OF+REACT-STATUS-KIT+ON+NPM;RESTFUL+APIS+AND+SECURE+AUTHENTICATION;BUILDING+RESPONSIVE+WEB+APPLICATIONS" alt="Roshan Gowda - Full-Stack Developer" />
 </a>
 
 <br/>
@@ -32,11 +32,11 @@
 
 <div align="center">
 
-### 🛰️ ENGINEERING VELOCITY & IMPACT
+### 🚀 ENGINEERING HIGHLIGHTS & IMPACT
 
-| 🚀 **+35% Velocity** | 📦 **1st Published npm Package** | 🌐 **5+ Production Web Apps** | 🎯 **-20% Inconsistencies** |
+| 📦 **< 8 KB Component Kit** | 🌐 **5+ Production Web Apps** | 🎯 **-20% Inconsistencies** | ⚡ **100% Type Discipline** |
 |:---:|:---:|:---:|:---:|
-| Accelerated engineering via AI workflows | Author of `react-status-kit` on npm | Shipped high-performance web applications | Optimized cross-browser codebases |
+| Authored & published `react-status-kit` on npm | Full-stack MERN applications shipped | Cross-browser layout & responsive audits | Strict TypeScript & modular architecture |
 
 </div>
 
