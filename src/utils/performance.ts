@@ -74,7 +74,7 @@ export function getInitialPerformanceProfile(): PerformanceProfile {
     isHardwareConstrained,
     tier: isLow ? "low" : "high",
     sphere: {
-      branches: isLow ? 16 : 34,
+      branches: isLow ? 17 : 34,
       speed: prefersReducedMotion ? 0 : isLow ? 8 : 15,
       scale: isLow ? 80 : 88,
     },
@@ -132,7 +132,7 @@ export function usePerformanceTier(): PerformanceProfile {
         ? "medium"
         : "high";
 
-      const branches = tier === "low" ? 14 : tier === "medium" ? 22 : 34;
+      const branches = tier === "low" ? 17 : 34;
       const speed = reducedMotion ? 0 : tier === "low" ? 7 : tier === "medium" ? 11 : 15;
       const scale = tier === "low" ? 78 : 88;
       const parallaxDamping = reducedMotion ? 0 : tier === "low" ? 0.35 : tier === "medium" ? 0.7 : 1.0;

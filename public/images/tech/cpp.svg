@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <path d="M128 16l98 57v114l-98 57-98-57V73l98-57z" fill="#00599C"/>
-  <path d="M128 32l84 49v98l-84 49-84-49V81l84-49z" fill="#004482"/>
-  <text x="100" y="164" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="108" fill="#FFFFFF" text-anchor="middle">C</text>
-  <text x="175" y="152" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="64" fill="#00A2ED" text-anchor="middle">++</text>
+  <rect width="256" height="256" rx="44" fill="#0A1624" stroke="#00599C" stroke-width="6"/>
+  <g transform="translate(18, 18) scale(0.86)">
+    <path d="M128 16l98 57v114l-98 57-98-57V73l98-57z" fill="#00599C"/>
+    <path d="M128 32l84 49v98l-84 49-84-49V81l84-49z" fill="#004482"/>
+    <text x="100" y="164" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="108" fill="#FFFFFF" text-anchor="middle">C</text>
+    <text x="175" y="152" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="64" fill="#00A2ED" text-anchor="middle">++</text>
+  </g>
 </svg>

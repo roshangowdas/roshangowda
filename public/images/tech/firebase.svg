@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <path d="M48 190L85 35c1-6 9-8 13-3l33 60-44 80-39 18z" fill="#FFA611"/>
-  <path d="M154 116l-23-44c-3-6-11-6-14 0L48 190l81 45c4 2 9 2 13 0l83-45-71-74z" fill="#F57C00"/>
-  <path d="M154 116l53 55-20-99c-1-6-8-9-13-5l-20 49z" fill="#FFCA28"/>
+  <rect width="256" height="256" rx="44" fill="#1C140A" stroke="#FFA611" stroke-width="6"/>
+  <g transform="translate(18, 18) scale(0.86)">
+    <path d="M48 190L85 35c1-6 9-8 13-3l33 60-44 80-39 18z" fill="#FFA611"/>
+    <path d="M154 116l-23-44c-3-6-11-6-14 0L48 190l81 45c4 2 9 2 13 0l83-45-71-74z" fill="#F57C00"/>
+    <path d="M154 116l53 55-20-99c-1-6-8-9-13-5l-20 49z" fill="#FFCA28"/>
+  </g>
 </svg>

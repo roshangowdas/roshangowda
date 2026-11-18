@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <path d="M128 14c-4 12-28 65-28 116 0 54 28 92 28 116 0-24 28-62 28-116 0-51-24-104-28-116z" fill="#47A248"/>
-  <path d="M128 14v232c0-24 28-62 28-116 0-51-24-104-28-116z" fill="#499D4A"/>
-  <path d="M128 246c-2 0-4-10-5-24 1 0 3 0 5 0v24z" fill="#3FA037"/>
-  <path d="M128 14c-2 0-3 3-4 8 0 1 0 2 0 3 2 11 11 37 18 64 7-26 12-49 14-63 0-2 0-4-1-4-1-5-2-8-3-8h-24z" fill="#FFFFFF" opacity="0.25"/>
+  <rect width="256" height="256" rx="44" fill="#0C1A12" stroke="#00ED64" stroke-width="6"/>
+  <path d="M128 26c-5 16-36 76-36 122 0 44 26 68 36 74 10-6 36-30 36-74 0-46-31-106-36-122z" fill="#00ED64"/>
+  <path d="M128 26v196c10-6 36-30 36-74 0-46-31-106-36-122z" fill="#00C753"/>
+  <path d="M128 26c-2 6-4 14-6 22 4 18 10 40 13 58 4-18 7-32 8-40-2-18-9-34-15-40z" fill="#FFFFFF" opacity="0.3"/>
+  <text x="128" y="242" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="20" fill="#00ED64" text-anchor="middle" letter-spacing="2">MONGODB</text>
 </svg>

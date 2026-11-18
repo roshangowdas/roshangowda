@@ -368,7 +368,7 @@ export const SkillsSection: React.FC = () => {
             >
               <SphereGallery3D
                 images={TECH_SKILLS}
-                branches={sphere.branches}
+                branches={isLowPowerMode ? TECH_SKILLS.length : TECH_SKILLS.length * 2}
                 scale={sphere.scale}
                 size={35}
                 scatter={4}
