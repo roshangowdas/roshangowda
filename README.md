@@ -33,12 +33,56 @@
 <div align="center">
 
 ### 🚀 ENGINEERING HIGHLIGHTS & IMPACT
+<sub>3D Isometric Card Deck • Click any metric below to expand technical specifications</sub>
 
-| 📦 **< 8 KB Component Kit** | 🌐 **5+ Production Web Apps** | 🎯 **-20% Inconsistencies** | ⚡ **100% Type Discipline** |
-|:---:|:---:|:---:|:---:|
-| Authored & published `react-status-kit` on npm | Full-stack MERN applications shipped | Cross-browser layout & responsive audits | Strict TypeScript & modular architecture |
+<br/><br/>
+
+<a href="https://github.com/roshangowdas">
+  <img src="assets/engineering-metrics-3d.svg" width="100%" alt="3D Isometric Engineering Highlights and Impact" />
+</a>
+
+<br/>
 
 </div>
+
+<details>
+<summary>📦 <b>Metric 1: &lt; 8 KB Component Kit — react-status-kit (Click to inspect)</b></summary>
+<br/>
+
+> **Published on official npm Registry:** Zero runtime dependencies, tree-shakeable ESM/CJS exports, and fully accessible state visualization component suite.
+> - **npm package:** [`react-status-kit`](https://www.npmjs.com/~roshan__gowda)
+> - **Source code:** [github.com/roshangowdas](https://github.com/roshangowdas)
+> - **Bundle impact:** Less than 8 KB minified + gzipped
+
+</details>
+
+<details>
+<summary>🌐 <b>Metric 2: 5+ Production Web Apps — Full-Stack MERN (Click to inspect)</b></summary>
+<br/>
+
+> **Shipped End-to-End Applications:** Engineered responsive web platforms with React 18 frontend architecture, Node.js + Express REST APIs, Firebase Authentication, and MongoDB Atlas database modeling.
+> - **Architecture:** Component-driven UI, state managers, schema validation, secured session handling.
+> - **Projects:** Community Resource Sharing Platform, AI-PetCare, and open-source tooling.
+
+</details>
+
+<details>
+<summary>🎯 <b>Metric 3: -20% Inconsistencies — Layout & Responsive Audits (Click to inspect)</b></summary>
+<br/>
+
+> **Cross-Browser Verification:** Systematic code audits, layout refactoring, CSS Grid/Flexbox normalization, and viewport stress testing across mobile, tablet, and desktop screens.
+> - **Discipline:** Eliminated overflow glitches, normalized font rendering metrics, and guaranteed smooth 60 FPS transitions.
+
+</details>
+
+<details>
+<summary>⚡ <b>Metric 4: 100% Type Discipline — Strict TypeScript Architecture (Click to inspect)</b></summary>
+<br/>
+
+> **Zero Warnings / Zero Any:** Strict TypeScript interfaces across all components, API schemas, and state contracts.
+> - **Tooling:** TypeScript 5.7, Vite 6, strict ESLint rules, and predictable state transitions.
+
+</details>
 
 ---
 
