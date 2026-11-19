@@ -221,7 +221,4 @@ Looking for a dedicated Software Developer or full-stack contributor? Let's buil
 ✦ CRAFTED WITH OBSIDIAN & CRIMSON PRECISION • ROSHAN GOWDA S © 2026 ✦
 ```
 
-<!-- Dynamic Wave Footer Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:eb1b38,50:1c0a0f,100:000000&height=120&section=footer" width="100%" alt="Footer Wave" />
-
 </div>
