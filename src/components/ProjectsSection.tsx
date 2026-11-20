@@ -111,7 +111,7 @@ export const ProjectsSection: React.FC = () => {
           className="border-b border-[#2b171c] pb-3 sm:pb-4 mb-4 sm:mb-5"
         >
           <div className="flex items-center justify-between">
-            <h2 className="text-[clamp(1.75rem,5.5vw,3rem)] font-black text-[#f5ece3] tracking-tight uppercase font-['Inter',sans-serif]">
+            <h2 className="text-[clamp(1.75rem,5.5vw,3rem)] font-black text-[#f5ece3] tracking-tight uppercase font-['Pricedown','Bebas_Neue',Impact,sans-serif]">
               KEY <span className="text-[#eb1b38]">PROJECTS</span>
             </h2>
             <span className="hidden sm:inline-block font-mono text-[11px] text-[#a89589] uppercase tracking-wider">

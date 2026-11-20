@@ -827,7 +827,7 @@ export default function ContactWithGlobe({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.9, delay: 0.15, ease: smoothEase }}
-              className="text-[clamp(1.75rem,5.5vw,3rem)] font-black tracking-tight uppercase font-['Inter',sans-serif] text-[#f5ece3]"
+              className="text-[clamp(1.75rem,5.5vw,3rem)] font-black tracking-tight uppercase font-['Pricedown','Bebas_Neue',Impact,sans-serif] text-[#f5ece3]"
             >
               LET'S <span className="text-[#eb1b38]">CONNECT</span>
             </motion.h2>

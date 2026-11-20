@@ -575,10 +575,10 @@ export default function App() {
 
           {/* Dual-Font Lockup: "ROSHAN Gowda" with Electric Red Accent Script */}
           <div className="relative inline-block my-1 select-none">
-            {/* Primary Word: "ROSHAN" in Warm Cream / Sand (#f2e8de) */}
+            {/* Primary Word: "ROSHAN" in GTA Pricedown */}
             <h1
               data-hero-name
-              className="font-['Anton','Bebas_Neue',Impact,sans-serif] text-[clamp(2.75rem,13vw,9.5rem)] tracking-tight text-[#f2e8de] uppercase leading-[0.82] drop-shadow-[0_10px_35px_rgba(0,0,0,0.98)]"
+              className="font-['Pricedown','Bebas_Neue',Impact,sans-serif] text-[clamp(2.75rem,13vw,9.5rem)] tracking-tight text-[#f2e8de] uppercase leading-[0.82] drop-shadow-[0_10px_35px_rgba(0,0,0,0.98)]"
             >
               ROSHAN
             </h1>

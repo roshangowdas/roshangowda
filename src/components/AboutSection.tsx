@@ -48,7 +48,7 @@ export const AboutSection: React.FC = () => {
           >
             <h2
               data-parallax-about
-              className="font-['Inter',sans-serif] font-black text-[clamp(3.1rem,15.5vw,14.5rem)] leading-[0.8] tracking-[-0.04em] text-[#eb1b38] uppercase select-none drop-shadow-[0_0_40px_rgba(235,27,56,0.25)] will-change-transform"
+              className="font-['Pricedown','Bebas_Neue',Impact,sans-serif] font-black text-[clamp(3.1rem,15.5vw,14.5rem)] leading-[0.8] tracking-tight text-[#eb1b38] uppercase select-none drop-shadow-[0_0_40px_rgba(235,27,56,0.25)] will-change-transform"
             >
               ABOUT
             </h2>
@@ -110,7 +110,7 @@ export const AboutSection: React.FC = () => {
           >
             <h2
               data-parallax-me
-              className="font-['Inter',sans-serif] font-black text-[clamp(3.1rem,15.5vw,14.5rem)] leading-[0.8] tracking-[-0.04em] text-[#eb1b38] uppercase select-none drop-shadow-[0_0_40px_rgba(235,27,56,0.25)] will-change-transform"
+              className="font-['Pricedown','Bebas_Neue',Impact,sans-serif] font-black text-[clamp(3.1rem,15.5vw,14.5rem)] leading-[0.8] tracking-tight text-[#eb1b38] uppercase select-none drop-shadow-[0_0_40px_rgba(235,27,56,0.25)] will-change-transform"
             >
               ME
             </h2>

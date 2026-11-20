@@ -201,7 +201,7 @@ export const ErrorPage: React.FC<ErrorPageProps> = ({
       <main className="relative z-20 flex-1 w-full flex items-center justify-center overflow-hidden">
         {/* Layer A: Giant Red Digits Filling the Viewport Edge-to-Edge */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
-          <div className="flex items-center justify-center w-full max-w-[100vw] h-full leading-none font-['Anton','Bebas_Neue',Impact,sans-serif] tracking-[-0.05em] text-[#e01633] text-[38vw] sm:text-[34vw] md:text-[32vw] lg:text-[30vw] drop-shadow-[0_0_90px_rgba(235,27,56,0.55)]">
+          <div className="flex items-center justify-center w-full max-w-[100vw] h-full leading-none font-['Pricedown','Bebas_Neue',Impact,sans-serif] tracking-[-0.05em] text-[#e01633] text-[38vw] sm:text-[34vw] md:text-[32vw] lg:text-[30vw] drop-shadow-[0_0_90px_rgba(235,27,56,0.55)]">
             {/* Digit 1 (Left) with Cinematic Lens Depth-of-Field Blur */}
             <span
               className="inline-block transform scale-95 opacity-85 will-change-transform"
@@ -249,7 +249,7 @@ export const ErrorPage: React.FC<ErrorPageProps> = ({
             <span className="text-xs sm:text-sm font-mono tracking-widest text-[#f5ece3]/80 uppercase mb-1">
               {current.code}
             </span>
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-[#f5ece3] uppercase font-['Inter',sans-serif] drop-shadow-[0_4px_16px_rgba(0,0,0,0.98)] max-w-md">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-[#f5ece3] uppercase font-['Pricedown','Bebas_Neue',Impact,sans-serif] drop-shadow-[0_4px_16px_rgba(0,0,0,0.98)] max-w-md">
               {current.heading}
             </h1>
 

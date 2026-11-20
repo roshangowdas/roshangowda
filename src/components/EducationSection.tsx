@@ -170,7 +170,7 @@ export const EducationSection: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "0px 0px -40px 0px" }}
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
-          className="font-['Inter',sans-serif] font-black text-[clamp(1.75rem,6.5vw,4.5rem)] tracking-tight text-[#f5ece3] mb-5 sm:mb-8 uppercase"
+          className="font-['Pricedown','Bebas_Neue',Impact,sans-serif] font-black text-[clamp(1.75rem,6.5vw,4.5rem)] tracking-tight text-[#f5ece3] mb-5 sm:mb-8 uppercase"
         >
           EDUCATION <span className="text-[#eb1b38]">&amp; JOURNEY</span>
         </motion.h2>

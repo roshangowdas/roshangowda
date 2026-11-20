@@ -394,7 +394,7 @@ export function PerspectiveTunnelHero({
                 <p className="text-[10px] sm:text-xs font-mono uppercase tracking-[0.3em] sm:tracking-[0.4em] text-[#eb1b38] mb-3 sm:mb-4">
                     {badgeText}
                 </p>
-                <h2 className="text-[clamp(1.85rem,7.5vw,5.5rem)] font-black tracking-tight leading-[0.9] text-[#f5ece3] uppercase font-['Inter',sans-serif]">
+                <h2 className="text-[clamp(1.85rem,7.5vw,5.5rem)] font-black tracking-tight leading-[0.9] text-[#f5ece3] uppercase font-['Pricedown','Bebas_Neue',Impact,sans-serif]">
                     {titlePrimary}
                     <br />
                     <span className="text-[#eb1b38]">{titleSecondary}</span>

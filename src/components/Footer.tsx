@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, Github, Linkedin, Instagram, Mail } from "lucide-react";
 import GlimmerVale from "./ui/glimmer-vale";
 import SlingButton from "./ui/SlingButton";
+import RotatingText from "./ui/RotatingText";
 
 const NpmIcon = ({ className = "w-3.5 h-3.5" }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor">
@@ -47,8 +48,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
           className="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8 mb-6 lg:mb-8 items-start"
         >
-          {/* Spacer: leaves little space on the left side */}
-          <div className="hidden md:block md:col-span-2 lg:col-span-3" />
+          {/* Spacer: leaves space on the left side */}
+          <div className="hidden md:block md:col-span-1 lg:col-span-2" />
 
           {/* Explore Navigation */}
           <div className="flex flex-col gap-3 md:col-span-3 lg:col-span-2">
@@ -74,17 +75,31 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
             </nav>
           </div>
 
-          {/* Follow me (Pill Badges) */}
-          <div className="flex flex-col gap-3 md:col-span-4 lg:col-span-4">
-            <span className="text-xs font-mono font-bold tracking-wider uppercase text-[#a89589]">
-              Follow me
-            </span>
-            <div className="flex flex-wrap gap-1.5 sm:gap-2 max-w-full">
+          {/* Follow me (Pill Badges with React Bits RotatingText) */}
+          <div className="flex flex-col gap-3 md:col-span-5 lg:col-span-5">
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="text-xs font-mono font-bold tracking-wider uppercase text-[#a89589]">
+                FOLLOW ME
+              </span>
+              <RotatingText
+                texts={['ON GITHUB', 'ON LINKEDIN', 'ON NPM', 'ON INSTAGRAM', 'VIA EMAIL']}
+                effect="slide"
+                direction="up"
+                highlight={true}
+                highlightColor="#eb1b38"
+                staggerFrom="last"
+                staggerDuration={0.025}
+                splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+                elementLevelClassName="text-white font-mono text-[11px] font-bold tracking-wider uppercase px-1.5"
+                rotationInterval={2000}
+              />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-w-full">
               <a
                 href="https://github.com/roshangowdas"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-[11px] sm:text-xs font-mono text-[#f5ece3] transition-all duration-200"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-[#eb1b38]/40 text-xs font-mono text-[#f5ece3] transition-all duration-200"
               >
                 <Github className="w-3.5 h-3.5 text-[#f5ece3]" />
                 <span>@roshangowdas</span>
@@ -93,7 +108,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
                 href="https://www.linkedin.com/in/roshan-gowda-s-378343283/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-[11px] sm:text-xs font-mono text-[#f5ece3] transition-all duration-200"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-[#0a66c2]/40 text-xs font-mono text-[#f5ece3] transition-all duration-200"
               >
                 <Linkedin className="w-3.5 h-3.5 text-[#0a66c2]" />
                 <span>@roshan-gowda-s</span>
@@ -102,7 +117,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
                 href="https://www.npmjs.com/~roshan__gowda"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-[11px] sm:text-xs font-mono text-[#f5ece3] transition-all duration-200"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-[#eb1b38]/40 text-xs font-mono text-[#f5ece3] transition-all duration-200"
               >
                 <NpmIcon className="w-3.5 h-3.5 text-[#eb1b38]" />
                 <span>~roshan__gowda</span>
@@ -111,14 +126,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
                 href="https://www.instagram.com/roshan__gowda"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-[11px] sm:text-xs font-mono text-[#f5ece3] transition-all duration-200"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-[#e4405f]/40 text-xs font-mono text-[#f5ece3] transition-all duration-200"
               >
                 <Instagram className="w-3.5 h-3.5 text-[#e4405f]" />
                 <span>@roshan__gowda</span>
               </a>
               <a
                 href="mailto:0243roshan@gmail.com"
-                className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-[11px] sm:text-xs font-mono text-[#f5ece3] transition-all duration-200"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-[#eb1b38]/40 text-xs font-mono text-[#f5ece3] transition-all duration-200 sm:col-span-2"
               >
                 <Mail className="w-3.5 h-3.5 text-[#eb1b38]" />
                 <span>0243roshan@gmail.com</span>
@@ -194,7 +209,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
           transition={{ duration: 0.85, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
           className="w-full overflow-hidden select-none my-2 sm:my-6 flex items-center justify-center sm:justify-start"
         >
-          <span className="text-[17vw] sm:text-[18.5vw] font-black tracking-tighter leading-[0.8] text-[#f5ece3] font-['Inter',sans-serif] lowercase opacity-95 hover:opacity-100 transition-opacity truncate max-w-full">
+          <span className="text-[17vw] sm:text-[18.5vw] font-black tracking-tight leading-[0.8] text-[#f5ece3] font-['Pricedown','Bebas_Neue',Impact,sans-serif] uppercase opacity-95 hover:opacity-100 transition-opacity truncate max-w-full">
             roshan
           </span>
         </motion.div>

@@ -101,7 +101,7 @@ export const ExperienceSection: React.FC = () => {
           className="border-b border-[#2b171c] pb-3 sm:pb-4 mb-6 sm:mb-8"
         >
           <div className="flex items-center justify-between">
-            <h2 className="text-[clamp(1.75rem,5.5vw,3rem)] font-black text-[#f5ece3] tracking-tight uppercase font-['Inter',sans-serif]">
+            <h2 className="text-[clamp(1.75rem,5.5vw,3rem)] font-black text-[#f5ece3] tracking-tight uppercase font-['Pricedown','Bebas_Neue',Impact,sans-serif]">
               EXPERIENCE &amp; <span className="text-[#eb1b38]">IMPACT</span>
             </h2>
             <span className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-mono font-bold tracking-wider text-[#eb1b38] bg-[#eb1b38]/10 border border-[#eb1b38]/30 uppercase">
@@ -137,7 +137,7 @@ export const ExperienceSection: React.FC = () => {
 
                 <div className="space-y-1">
                   <div
-                    className="text-3xl sm:text-4xl font-black font-['Anton','Inter',sans-serif] tracking-tight leading-none"
+                    className="text-3xl sm:text-4xl font-black font-['Pricedown','Bebas_Neue',Impact,sans-serif] tracking-tight leading-none"
                     style={{ color: metric.color }}
                   >
                     {metric.value}
