@@ -1,7 +1,18 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Orbit, LayoutGrid, Sparkles, Zap, BatteryCharging, BatteryLow } from "lucide-react";
+import {
+  Orbit,
+  LayoutGrid,
+  Sparkles,
+  Zap,
+  BatteryLow,
+  ExternalLink,
+  Layers,
+  Code2,
+  Compass,
+} from "lucide-react";
 import SphereGallery3D, { GalleryItem } from "./ui/sphere-gallery-3d";
+import ArcList, { ArcListItem } from "./ui/arc-list";
 import { LEDTicker } from "./ui/pixel-led-display";
 import { cn } from "@/lib/utils";
 import { usePerformanceTier } from "@/utils/performance";
@@ -256,9 +267,67 @@ const MATRIX_CATEGORIES: MatrixCategory[] = [
 
 export const SkillsSection: React.FC = () => {
   const { sphere, isLowPowerMode, isLowBattery, prefersReducedMotion } = usePerformanceTier();
+
+  // Primary toggle: 3D Orbit Sphere vs Skill Matrix
   const [viewMode, setViewMode] = useState<"orbit" | "matrix">(() =>
     prefersReducedMotion ? "matrix" : "orbit"
   );
+
+  // Skill Matrix presentation sub-mode: Arc List (Default) or Expanded Grid
+  const [matrixDisplayMode, setMatrixDisplayMode] = useState<"arc" | "grid">("arc");
+
+  // In Arc List, switch between Categories (4 Domains) or All Individual Skills (16 Items)
+  const [arcFilter, setArcFilter] = useState<"categories" | "all">("categories");
+
+  // Format 4 Categories as ArcList items
+  const categoryArcItems: ArcListItem[] = React.useMemo(() => {
+    return MATRIX_CATEGORIES.map((cat) => {
+      const avg = Math.round(
+        cat.skills.reduce((acc, s) => acc + s.level, 0) / cat.skills.length
+      );
+      return {
+        title: cat.title,
+        code: cat.code,
+        badge: cat.badge,
+        skills: cat.skills,
+        description: `${cat.skills.length} core technologies â€¢ ${avg}% Domain Mastery`,
+        avgLevel: avg,
+      };
+    });
+  }, []);
+
+  // Format individual skills as ArcList items
+  const individualArcItems: ArcListItem[] = React.useMemo(() => {
+    return TECH_SKILLS.map((skill) => {
+      let level = 90;
+      let note = skill.desc;
+      for (const cat of MATRIX_CATEGORIES) {
+        const found = cat.skills.find(
+          (s) =>
+            s.name.toLowerCase().includes(skill.name.toLowerCase()) ||
+            skill.name.toLowerCase().includes(s.name.toLowerCase())
+        );
+        if (found) {
+          level = found.level;
+          note = found.note;
+          break;
+        }
+      }
+      return {
+        title: skill.name,
+        code: skill.categoryLabel,
+        badge: `${level}% PROFICIENCY`,
+        image: skill.icon,
+        description: note,
+        link: skill.link,
+        level,
+        category: skill.category,
+      };
+    });
+  }, []);
+
+  // Active items for Arc List
+  const activeArcItems = arcFilter === "categories" ? categoryArcItems : individualArcItems;
 
   return (
     <section
@@ -275,7 +344,7 @@ export const SkillsSection: React.FC = () => {
       >
         <LEDTicker
           items={["Technical Skills", "MERN Stack", "RESTful APIs", "react-status-kit", "Open-Source npm"]}
-          separator="●"
+          separator="â— "
           speed={prefersReducedMotion ? 0 : 22}
           textSize={34}
           dotSize={5}
@@ -291,7 +360,7 @@ export const SkillsSection: React.FC = () => {
 
       {/* Subtle Background Glows matching Black & Crimson Palette */}
       <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[550px] rounded-full blur-[190px] pointer-events-none opacity-20"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[550px] rounded-full blur-[190px] pointer-events-none opacity-20"
         style={{
           background:
             "radial-gradient(ellipse, rgba(235, 27, 56, 0.45) 0%, rgba(120, 20, 30, 0.2) 45%, transparent 70%)",
@@ -299,7 +368,7 @@ export const SkillsSection: React.FC = () => {
       />
 
       {/* 2. Interactive View Switcher Controls (Dual View Mode) with Dynamic Eco Status */}
-      <div className="relative z-20 flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-5 sm:mb-7">
+      <div className="relative z-20 flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-4 sm:mb-6">
         <div className="flex items-center gap-1.5 p-1 rounded-full bg-[#140d0e]/95 border border-[#2b171c] backdrop-blur-xl shadow-[0_10px_30px_rgba(0,0,0,0.85)]">
           <button
             type="button"
@@ -312,7 +381,13 @@ export const SkillsSection: React.FC = () => {
             )}
             title="Switch to 3D Orbit View"
           >
-            <Orbit className={cn("w-3.5 h-3.5", viewMode === "orbit" && !prefersReducedMotion ? "animate-spin" : "")} style={{ animationDuration: "12s" }} />
+            <Orbit
+              className={cn(
+                "w-3.5 h-3.5",
+                viewMode === "orbit" && !prefersReducedMotion ? "animate-spin" : ""
+              )}
+              style={{ animationDuration: "12s" }}
+            />
             <span>3D ORBIT VIEW</span>
           </button>
 
@@ -325,7 +400,7 @@ export const SkillsSection: React.FC = () => {
                 ? "bg-gradient-to-r from-[#eb1b38] to-[#c7122b] text-white shadow-[0_0_18px_rgba(235,27,56,0.5)] border border-[#ff4a68]/40"
                 : "text-[#a89589] hover:text-[#f5ece3] hover:bg-white/5"
             )}
-            title="Switch to Skill Matrix View"
+            title="Switch to Skill Matrix View (Arc List)"
           >
             <LayoutGrid className="w-3.5 h-3.5" />
             <span>SKILL MATRIX VIEW</span>
@@ -353,7 +428,77 @@ export const SkillsSection: React.FC = () => {
         )}
       </div>
 
-      {/* 3. Dynamic View Container */}
+      {/* 3. Sub-controls for Matrix View (Arc List vs Grid Switcher & Filters) */}
+      {viewMode === "matrix" && (
+        <motion.div
+          initial={{ opacity: 0, y: -8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+          className="relative z-20 flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-5 sm:mb-7 px-4"
+        >
+          {/* Display Mode: Arc List vs Full Grid */}
+          <div className="flex items-center gap-1 p-0.5 rounded-full bg-[#161012] border border-[#2b171c] text-[11px] font-mono">
+            <button
+              type="button"
+              onClick={() => setMatrixDisplayMode("arc")}
+              className={cn(
+                "flex items-center gap-1.5 px-3 py-1 rounded-full transition-all duration-200 cursor-pointer",
+                matrixDisplayMode === "arc"
+                  ? "bg-[#eb1b38] text-white font-bold shadow-[0_0_12px_rgba(235,27,56,0.4)]"
+                  : "text-[#a89589] hover:text-white"
+              )}
+            >
+              <Compass className="w-3 h-3" />
+              <span>ARC LIST VIEW</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setMatrixDisplayMode("grid")}
+              className={cn(
+                "flex items-center gap-1.5 px-3 py-1 rounded-full transition-all duration-200 cursor-pointer",
+                matrixDisplayMode === "grid"
+                  ? "bg-[#eb1b38] text-white font-bold shadow-[0_0_12px_rgba(235,27,56,0.4)]"
+                  : "text-[#a89589] hover:text-white"
+              )}
+            >
+              <Layers className="w-3 h-3" />
+              <span>FULL GRID VIEW</span>
+            </button>
+          </div>
+
+          {/* If in Arc List View, allow filtering between 4 Domains or All 16 Skills */}
+          {matrixDisplayMode === "arc" && (
+            <div className="flex items-center gap-1 p-0.5 rounded-full bg-[#161012] border border-[#2b171c] text-[11px] font-mono">
+              <button
+                type="button"
+                onClick={() => setArcFilter("categories")}
+                className={cn(
+                  "px-3 py-1 rounded-full transition-all duration-200 cursor-pointer",
+                  arcFilter === "categories"
+                    ? "bg-white/10 text-white font-bold border border-white/15"
+                    : "text-[#8c7b74] hover:text-white"
+                )}
+              >
+                4 DOMAIN CLUSTERS
+              </button>
+              <button
+                type="button"
+                onClick={() => setArcFilter("all")}
+                className={cn(
+                  "px-3 py-1 rounded-full transition-all duration-200 cursor-pointer",
+                  arcFilter === "all"
+                    ? "bg-white/10 text-white font-bold border border-white/15"
+                    : "text-[#8c7b74] hover:text-white"
+                )}
+              >
+                ALL 16 SKILLS
+              </button>
+            </div>
+          )}
+        </motion.div>
+      )}
+
+      {/* 4. Dynamic View Container */}
       <div className="relative z-10 w-full max-w-7xl px-4 sm:px-6">
         <AnimatePresence mode="wait">
           {viewMode === "orbit" ? (
@@ -390,10 +535,190 @@ export const SkillsSection: React.FC = () => {
                 }}
               />
             </motion.div>
-          ) : (
-            /* Mode B: Interactive Skill Matrix View with Proficiency Bars & Practical Notes */
+          ) : matrixDisplayMode === "arc" ? (
+            /* Mode B (Default for Skill Matrix): React Bits Pro ARC LIST Component */
             <motion.div
-              key="matrix-view"
+              key="matrix-arc-view"
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -16 }}
+              transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
+              className="w-full rounded-3xl border border-[#2b171c]/80 bg-[#0e090b]/80 backdrop-blur-2xl shadow-[0_25px_60px_rgba(0,0,0,0.9)] overflow-hidden p-2 sm:p-4"
+            >
+              <ArcList
+                items={activeArcItems}
+                orientation="auto"
+                imageSide="left"
+                curve={0.55}
+                spacing={85}
+                visible={3}
+                fontSize={21}
+                renderPreview={(activeItem) => {
+                  // Render Category Domain Preview
+                  if (activeItem.skills) {
+                    return (
+                      <div className="w-full rounded-2xl border border-[#2b171c] bg-[#120d0f]/95 backdrop-blur-xl p-5 sm:p-7 flex flex-col justify-between shadow-[0_20px_50px_rgba(0,0,0,0.85)] relative overflow-hidden group">
+                        {/* Top Category Header */}
+                        <div className="flex items-center justify-between border-b border-[#2b171c] pb-3 mb-5">
+                          <div>
+                            <span className="text-[11px] font-mono font-bold tracking-widest text-[#eb1b38] uppercase">
+                              {activeItem.code}
+                            </span>
+                            <h3 className="text-xl sm:text-2xl font-bold font-['Inter',sans-serif] text-white mt-0.5">
+                              {activeItem.title}
+                            </h3>
+                          </div>
+                          <div className="flex flex-col items-end gap-1">
+                            <span className="px-2.5 py-1 rounded text-[10px] font-mono font-bold uppercase tracking-wider text-[#d4beab] bg-white/5 border border-white/10">
+                              {activeItem.badge}
+                            </span>
+                            {activeItem.avgLevel && (
+                              <span className="text-[10px] font-mono font-bold text-[#eb1b38]">
+                                {activeItem.avgLevel}% AVG MASTERY
+                              </span>
+                            )}
+                          </div>
+                        </div>
+
+                        {/* Skills List with Proficiency Bars */}
+                        <div className="space-y-4">
+                          {activeItem.skills.map((skill, sIdx) => (
+                            <div key={sIdx} className="space-y-1.5 group/skill">
+                              <div className="flex items-center justify-between text-xs sm:text-sm">
+                                <div className="flex items-center gap-2.5">
+                                  {skill.icon ? (
+                                    <img
+                                      src={skill.icon}
+                                      alt={skill.name}
+                                      className="w-4 h-4 sm:w-5 sm:h-5 object-contain filter drop-shadow"
+                                      onError={(e) => {
+                                        (e.currentTarget as HTMLImageElement).style.display = "none";
+                                      }}
+                                    />
+                                  ) : (
+                                    <Sparkles className="w-4 h-4 text-[#eb1b38]" />
+                                  )}
+                                  <span className="font-semibold text-white font-['Inter',sans-serif] group-hover/skill:text-[#eb1b38] transition-colors">
+                                    {skill.name}
+                                  </span>
+                                </div>
+                                <span className="font-mono text-xs sm:text-sm font-bold text-[#eb1b38]">
+                                  {skill.level}%
+                                </span>
+                              </div>
+
+                              {/* Glowing Animated Progress Bar */}
+                              <div className="h-1.5 w-full bg-[#1c1215] rounded-full overflow-hidden border border-white/5">
+                                <motion.div
+                                  initial={{ width: 0 }}
+                                  animate={{ width: `${skill.level}%` }}
+                                  transition={{ duration: 0.9, delay: sIdx * 0.08, ease: "easeOut" }}
+                                  className="h-full bg-gradient-to-r from-[#b31429] via-[#eb1b38] to-[#ff4a68] rounded-full shadow-[0_0_10px_rgba(235,27,56,0.7)]"
+                                />
+                              </div>
+
+                              {/* Practical Engineering Note */}
+                              <p className="text-[11px] sm:text-xs font-mono text-[#a89589] leading-tight">
+                                {skill.note}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+
+                        {/* Interactive hint footer */}
+                        <div className="mt-6 pt-3 border-t border-[#2b171c]/60 flex items-center justify-between text-[11px] font-mono text-[#8c7b74]">
+                          <span>Scroll wheel or click arc titles to rotate</span>
+                          <span className="text-[#eb1b38]">â€¢ Verified Skills</span>
+                        </div>
+                      </div>
+                    );
+                  }
+
+                  // Render Individual Skill Preview Card
+                  return (
+                    <div className="w-full rounded-2xl border border-[#2b171c] bg-[#120d0f]/95 backdrop-blur-xl p-6 sm:p-8 flex flex-col justify-between shadow-[0_20px_50px_rgba(0,0,0,0.85)] relative overflow-hidden group">
+                      <div className="flex items-center justify-between border-b border-[#2b171c] pb-4 mb-6">
+                        <div className="flex items-center gap-3">
+                          {activeItem.image && (
+                            <div className="p-3 rounded-2xl bg-[#1c1216] border border-[#eb1b38]/30 shadow-[0_0_20px_rgba(235,27,56,0.25)]">
+                              <img
+                                src={activeItem.image}
+                                alt={activeItem.title}
+                                className="w-8 h-8 object-contain"
+                              />
+                            </div>
+                          )}
+                          <div>
+                            <span className="text-[10px] font-mono font-bold tracking-widest text-[#eb1b38] uppercase">
+                              {activeItem.code}
+                            </span>
+                            <h3 className="text-2xl font-bold font-['Inter',sans-serif] text-white">
+                              {activeItem.title}
+                            </h3>
+                          </div>
+                        </div>
+
+                        {activeItem.badge && (
+                          <span className="px-3 py-1 rounded-full text-[10px] font-mono font-bold uppercase tracking-wider text-[#eb1b38] bg-[#eb1b38]/10 border border-[#eb1b38]/30 shadow-[0_0_12px_rgba(235,27,56,0.2)]">
+                            {activeItem.badge}
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Level Bar */}
+                      {activeItem.level && (
+                        <div className="space-y-2 mb-6">
+                          <div className="flex items-center justify-between text-xs font-mono">
+                            <span className="text-[#a89589]">MASTERY BENCHMARK</span>
+                            <span className="text-[#eb1b38] font-bold">{activeItem.level}%</span>
+                          </div>
+                          <div className="h-2 w-full bg-[#1c1215] rounded-full overflow-hidden border border-white/5">
+                            <motion.div
+                              initial={{ width: 0 }}
+                              animate={{ width: `${activeItem.level}%` }}
+                              transition={{ duration: 0.9, ease: "easeOut" }}
+                              className="h-full bg-gradient-to-r from-[#b31429] via-[#eb1b38] to-[#ff4a68] rounded-full shadow-[0_0_12px_rgba(235,27,56,0.7)]"
+                            />
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Engineering Context */}
+                      <div className="space-y-2 mb-6">
+                        <h4 className="text-xs font-mono uppercase tracking-wider text-[#8c7b74]">
+                          PRACTICAL EXPERIENCE & ARCHITECTURE
+                        </h4>
+                        <p className="text-sm font-mono text-[#d4beab] leading-relaxed">
+                          {activeItem.description}
+                        </p>
+                      </div>
+
+                      {/* Outbound Link & Actions */}
+                      <div className="flex items-center justify-between pt-4 border-t border-[#2b171c]/60">
+                        {activeItem.link ? (
+                          <a
+                            href={activeItem.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-xs font-mono font-bold text-[#eb1b38] hover:text-[#ff4a68] transition-colors"
+                          >
+                            <span>EXPLORE DOCUMENTATION</span>
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        ) : (
+                          <span className="text-xs font-mono text-[#8c7b74]">Production Ready</span>
+                        )}
+                        <span className="text-[10px] font-mono text-[#8c7b74]">Click arc to rotate</span>
+                      </div>
+                    </div>
+                  );
+                }}
+              />
+            </motion.div>
+          ) : (
+            /* Mode C: Classic Expanded 2x2 Grid View */
+            <motion.div
+              key="matrix-grid-view"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
