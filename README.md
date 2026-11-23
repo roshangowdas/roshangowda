@@ -132,6 +132,71 @@ $ roshan --contact
 
 ---
 
+### 🛣️ ARCHITECTURE ROADMAP: HOW WE BUILT THIS PORTFOLIO
+
+<div align="center">
+<sub>Winding High-Tech Highway Roadmap • From GPU Shaders to 60 FPS Eco Physics &amp; Production Ship</sub>
+
+<br/><br/>
+
+<a href="https://github.com/roshangowdas">
+  <img src="assets/portfolio-build-roadmap.svg" width="100%" alt="Portfolio Architecture Winding Road Roadmap" />
+</a>
+
+</div>
+
+<br/>
+
+<details>
+<summary>🛣️ <b>Stage 1: Architecture Rig &amp; Design System</b></summary>
+<br/>
+
+> **Foundational Tooling:** Initialized React 18, strict TypeScript 5.7, and Vite 6 with custom Tailwind tokens. Adopted the Hoy Obsidian &amp; Crimson palette (`#120d0f`, `#eb1b38`) with 6px border radii and GTA Pricedown + Inter typography.
+
+</details>
+
+<details>
+<summary>⚡ <b>Stage 2: GPU Shader Compositor &amp; WebGL Shaders</b></summary>
+<br/>
+
+> **Hardware Acceleration:** Engineered custom GLSL fragment shaders rendering mathematical CAD vector crosshairs, vertex ticks, and live coordinate HUD readouts with randomized 6-tap disc blur cursor falloff.
+
+</details>
+
+<details>
+<summary>🌐 <b>Stage 3: 3D Spherical Fibonacci Orbit</b></summary>
+<br/>
+
+> **Spherical Physics Canvas:** Mapped 34 tech stack skills around a mathematical sphere using golden spiral coordinates, quaternion rotation matrices, and interactive drag-to-spin momentum damping.
+
+</details>
+
+<details>
+<summary>🍃 <b>Stage 4: 60 FPS Eco Performance Governor</b></summary>
+<br/>
+
+> **Adaptive Throttling:** Connected Lenis virtual inertial scroll with hardware telemetry monitoring CPU hardware concurrency, device RAM, and the Battery Status API to lock 60 FPS across desktop and mobile.
+
+</details>
+
+<details>
+<summary>📟 <b>Stage 5: Command Palette HUD &amp; In-Situ Playground</b></summary>
+<br/>
+
+> **Keyboard-First Telemetry:** Built an in-situ component testbed for `react-status-kit` alongside a `⌘K` Command Palette terminal powered by zero-latency Web Audio API synthetic oscillators.
+
+</details>
+
+<details>
+<summary>🚀 <b>Stage 6: CollabSpace SaaS Integration &amp; Production Hardening</b></summary>
+<br/>
+
+> **Full-Stack SaaS Showcase:** Integrated CollabSpace (16-table PostgreSQL RLS multi-tenant architecture), completed 74 automated unit tests, and achieved 100% type discipline with zero compilation warnings.
+
+</details>
+
+---
+
 ### 💎 CORE TECHNICAL ARSENAL & PROFICIENCY
 
 <div align="center">
