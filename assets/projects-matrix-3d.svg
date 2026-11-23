@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="projBg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#160a0e" />
+      <stop offset="50%" stop-color="#0d0508" />
+      <stop offset="100%" stop-color="#050203" />
+    </linearGradient>
+
+    <!-- Project Card Gradients -->
+    <linearGradient id="cardGradCollab" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#240c13" />
+      <stop offset="50%" stop-color="#13060a" />
+      <stop offset="100%" stop-color="#080304" />
+    </linearGradient>
+    <linearGradient id="cardGradNpm" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#240e16" />
+      <stop offset="50%" stop-color="#13060c" />
+      <stop offset="100%" stop-color="#080305" />
+    </linearGradient>
+    <linearGradient id="cardGradMern" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#0c1824" />
+      <stop offset="50%" stop-color="#060f17" />
+      <stop offset="100%" stop-color="#03080d" />
+    </linearGradient>
+    <linearGradient id="cardGradAi" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#1c160a" />
+      <stop offset="50%" stop-color="#100d05" />
+      <stop offset="100%" stop-color="#080602" />
+    </linearGradient>
+
+    <!-- Rims -->
+    <linearGradient id="rimRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2647" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#eb1b38" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#800b1a" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="rimRose" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#e11d48" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#881337" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="rimCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="rimAmber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#d97706" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#78350f" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Shadow -->
+    <filter id="pShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.85" />
+    </filter>
+  </defs>
+
+  <style>
+    .p-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-weight: 800; font-size: 19px; }
+    .p-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-weight: 600; font-size: 12px; }
+    .p-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-size: 11px; }
+    .p-badge { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 9.5px; letter-spacing: 0.08em; }
+  </style>
+
+  <!-- ==================== CARD 1: COLLABSPACE (Top Left: 15, 15) ==================== -->
+  <g transform="translate(15, 15)">
+    <rect x="0" y="0" width="475" height="198" rx="16" fill="url(#cardGradCollab)" stroke="#3f131a" stroke-width="1.3" filter="url(#pShadow)" />
+    <path d="M 16 0 L 459 0" stroke="url(#rimRed)" stroke-width="2.2" stroke-linecap="round" />
+    
+    <!-- Top row badge & category -->
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#260b11" stroke="#eb1b38" stroke-width="1" />
+      <path d="M 17 8 L 26 12.5 L 17 17 L 8 12.5 Z" fill="#eb1b38" />
+      <path d="M 8 16 L 17 20.5 L 26 16" fill="none" stroke="#ff4d66" stroke-width="1.3" stroke-linecap="round" />
+      <path d="M 8 21 L 17 25.5 L 26 21" fill="none" stroke="#eb1b38" stroke-width="1.3" stroke-linecap="round" />
+
+      <text x="44" y="16" fill="#ffffff" class="p-title">CollabSpace</text>
+      <text x="44" y="30" fill="#a89589" class="p-sub">Real-Time Team Collaboration SaaS Platform</text>
+
+      <rect x="360" y="4" width="70" height="22" rx="6" fill="#eb1b38" fill-opacity="0.15" stroke="#eb1b38" stroke-opacity="0.4" stroke-width="1" />
+      <text x="395" y="18.5" text-anchor="middle" fill="#ff4d66" class="p-badge">SAAS • RLS</text>
+    </g>
+
+    <text x="20" y="88" fill="#d4beab" class="p-mono">Multi-tenant collaboration suite featuring sprint Kanban boards,</text>
+    <text x="20" y="106" fill="#d4beab" class="p-mono">real-time CRDT document editing, and whiteboards with 16-table RLS.</text>
+
+    <!-- Key Metrics Highlight Strip -->
+    <g transform="translate(20, 122)">
+      <rect x="0" y="0" width="435" height="28" rx="6" fill="#0f0507" stroke="#2b0e14" stroke-width="1" />
+      <text x="12" y="18" fill="#eb1b38" class="p-badge">IMPACT:</text>
+      <text x="65" y="18" fill="#f5ece3" class="p-mono" font-size="10.5">16 PostgreSQL Tables • 74 Tests Passing • Zero Data Leakage</text>
+    </g>
+
+    <!-- Tech Chips -->
+    <g transform="translate(20, 164)">
+      <text x="0" y="16" fill="#8a736d" class="p-mono">TECH:</text>
+      <rect x="42" y="2" width="62" height="18" rx="4" fill="#1f0c11" stroke="#3b171f" stroke-width="1" />
+      <text x="73" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">React.js</text>
+
+      <rect x="110" y="2" width="68" height="18" rx="4" fill="#1f0c11" stroke="#3b171f" stroke-width="1" />
+      <text x="144" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">Supabase</text>
+
+      <rect x="184" y="2" width="76" height="18" rx="4" fill="#1f0c11" stroke="#3b171f" stroke-width="1" />
+      <text x="222" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">PostgreSQL</text>
+
+      <rect x="266" y="2" width="80" height="18" rx="4" fill="#1f0c11" stroke="#3b171f" stroke-width="1" />
+      <text x="306" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">Tailwind CSS</text>
+
+      <rect x="352" y="2" width="82" height="18" rx="4" fill="#1f0c11" stroke="#3b171f" stroke-width="1" />
+      <text x="393" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">WebSockets</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: REACT-STATUS-KIT (Top Right: 510, 15) ==================== -->
+  <g transform="translate(510, 15)">
+    <rect x="0" y="0" width="475" height="198" rx="16" fill="url(#cardGradNpm)" stroke="#38101a" stroke-width="1.3" filter="url(#pShadow)" />
+    <path d="M 16 0 L 459 0" stroke="url(#rimRose)" stroke-width="2.2" stroke-linecap="round" />
+    
+    <!-- Top row badge & category -->
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#200a12" stroke="#f43f5e" stroke-width="1" />
+      <path d="M 17 8 L 26 12.5 L 17 17 L 8 12.5 Z" fill="#fb7185" />
+      <path d="M 8 12.5 L 17 17 L 17 26 L 8 21.5 Z" fill="#be123c" />
+      <path d="M 26 12.5 L 17 17 L 17 26 L 26 21.5 Z" fill="#f43f5e" />
+
+      <text x="44" y="16" fill="#ffffff" class="p-title">react-status-kit</text>
+      <text x="44" y="30" fill="#a89589" class="p-sub">Open-Source Component Library Published on npm</text>
+
+      <rect x="360" y="4" width="70" height="22" rx="6" fill="#f43f5e" fill-opacity="0.15" stroke="#f43f5e" stroke-opacity="0.4" stroke-width="1" />
+      <text x="395" y="18.5" text-anchor="middle" fill="#fb7185" class="p-badge">NPM • OSS</text>
+    </g>
+
+    <text x="20" y="88" fill="#d4beab" class="p-mono">Zero-dependency React UI kit for managing asynchronous UI states:</text>
+    <text x="20" y="106" fill="#d4beab" class="p-mono">loading skeletons, confirmations, error boundaries, and empty states.</text>
+
+    <!-- Key Metrics Highlight Strip -->
+    <g transform="translate(20, 122)">
+      <rect x="0" y="0" width="435" height="28" rx="6" fill="#0f0508" stroke="#260e15" stroke-width="1" />
+      <text x="12" y="18" fill="#fb7185" class="p-badge">IMPACT:</text>
+      <text x="65" y="18" fill="#f5ece3" class="p-mono" font-size="10.5">&lt; 8 KB gzipped • Tree-Shakeable ESM/CJS • Zero Dependencies</text>
+    </g>
+
+    <!-- Tech Chips -->
+    <g transform="translate(20, 164)">
+      <text x="0" y="16" fill="#8a736d" class="p-mono">TECH:</text>
+      <rect x="42" y="2" width="62" height="18" rx="4" fill="#1f0c14" stroke="#3b1722" stroke-width="1" />
+      <text x="73" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">React 18</text>
+
+      <rect x="110" y="2" width="76" height="18" rx="4" fill="#1f0c14" stroke="#3b1722" stroke-width="1" />
+      <text x="148" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">TypeScript</text>
+
+      <rect x="192" y="2" width="76" height="18" rx="4" fill="#1f0c14" stroke="#3b1722" stroke-width="1" />
+      <text x="230" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">npm Registry</text>
+
+      <rect x="274" y="2" width="70" height="18" rx="4" fill="#1f0c14" stroke="#3b1722" stroke-width="1" />
+      <text x="309" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">Rollup/Vite</text>
+
+      <rect x="350" y="2" width="84" height="18" rx="4" fill="#1f0c14" stroke="#3b1722" stroke-width="1" />
+      <text x="392" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">SemVer CI/CD</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: COMMUNITY PLATFORM (Bottom Left: 15, 230) ==================== -->
+  <g transform="translate(15, 230)">
+    <rect x="0" y="0" width="475" height="198" rx="16" fill="url(#cardGradMern)" stroke="#112433" stroke-width="1.3" filter="url(#pShadow)" />
+    <path d="M 16 0 L 459 0" stroke="url(#rimCyan)" stroke-width="2.2" stroke-linecap="round" />
+    
+    <!-- Top row badge & category -->
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#091520" stroke="#0ea5e9" stroke-width="1" />
+      <circle cx="17" cy="17" r="8" fill="none" stroke="#38bdf8" stroke-width="1.3" />
+      <ellipse cx="17" cy="17" rx="3.5" ry="8" fill="none" stroke="#38bdf8" stroke-width="1" />
+      <line x1="9" y1="17" x2="25" y2="17" stroke="#38bdf8" stroke-width="1" />
+
+      <text x="44" y="16" fill="#ffffff" class="p-title">Community Resource Sharing</text>
+      <text x="44" y="30" fill="#a89589" class="p-sub">Full-Stack Collaborative Inventory Exchange Platform</text>
+
+      <rect x="360" y="4" width="70" height="22" rx="6" fill="#0284c7" fill-opacity="0.15" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1" />
+      <text x="395" y="18.5" text-anchor="middle" fill="#38bdf8" class="p-badge">MERN STACK</text>
+    </g>
+
+    <text x="20" y="88" fill="#d4beab" class="p-mono">Community tool &amp; equipment sharing platform with role-based access,</text>
+    <text x="20" y="106" fill="#d4beab" class="p-mono">inventory tracking, booking schedules, and indexing for high concurrency.</text>
+
+    <!-- Key Metrics Highlight Strip -->
+    <g transform="translate(20, 122)">
+      <rect x="0" y="0" width="435" height="28" rx="6" fill="#040b12" stroke="#0d1b28" stroke-width="1" />
+      <text x="12" y="18" fill="#38bdf8" class="p-badge">IMPACT:</text>
+      <text x="65" y="18" fill="#f5ece3" class="p-mono" font-size="10.5">10 RESTful Endpoints • Firebase Session Auth • Indexed Queries</text>
+    </g>
+
+    <!-- Tech Chips -->
+    <g transform="translate(20, 164)">
+      <text x="0" y="16" fill="#8a736d" class="p-mono">TECH:</text>
+      <rect x="42" y="2" width="62" height="18" rx="4" fill="#08141f" stroke="#102538" stroke-width="1" />
+      <text x="73" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">React.js</text>
+
+      <rect x="110" y="2" width="62" height="18" rx="4" fill="#08141f" stroke="#102538" stroke-width="1" />
+      <text x="141" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">Node.js</text>
+
+      <rect x="178" y="2" width="68" height="18" rx="4" fill="#08141f" stroke="#102538" stroke-width="1" />
+      <text x="212" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">Express.js</text>
+
+      <rect x="252" y="2" width="84" height="18" rx="4" fill="#08141f" stroke="#102538" stroke-width="1" />
+      <text x="294" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">MongoDB Atlas</text>
+
+      <rect x="342" y="2" width="92" height="18" rx="4" fill="#08141f" stroke="#102538" stroke-width="1" />
+      <text x="388" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">Firebase Auth</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 4: AI-PETCARE (Bottom Right: 510, 230) ==================== -->
+  <g transform="translate(510, 230)">
+    <rect x="0" y="0" width="475" height="198" rx="16" fill="url(#cardGradAi)" stroke="#31220f" stroke-width="1.3" filter="url(#pShadow)" />
+    <path d="M 16 0 L 459 0" stroke="url(#rimAmber)" stroke-width="2.2" stroke-linecap="round" />
+    
+    <!-- Top row badge & category -->
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#201507" stroke="#f59e0b" stroke-width="1" />
+      <path d="M 17 8 L 10 17 L 15 17 L 13 26 L 22 15 L 17 15 Z" fill="#fbbf24" stroke="#d97706" stroke-width="0.8" />
+
+      <text x="44" y="16" fill="#ffffff" class="p-title">AI-PetCare</text>
+      <text x="44" y="30" fill="#a89589" class="p-sub">Interactive Pet Health Monitoring &amp; Diagnostics</text>
+
+      <rect x="360" y="4" width="70" height="22" rx="6" fill="#d97706" fill-opacity="0.15" stroke="#d97706" stroke-opacity="0.4" stroke-width="1" />
+      <text x="395" y="18.5" text-anchor="middle" fill="#fbbf24" class="p-badge">DIAGNOSTIC</text>
+    </g>
+
+    <text x="20" y="88" fill="#d4beab" class="p-mono">Responsive care log, symptom tracking, and diagnostic checklists</text>
+    <text x="20" y="106" fill="#d4beab" class="p-mono">for pet owners, maintaining sub-15ms client-side interaction times.</text>
+
+    <!-- Key Metrics Highlight Strip -->
+    <g transform="translate(20, 122)">
+      <rect x="0" y="0" width="435" height="28" rx="6" fill="#0a0703" stroke="#24190a" stroke-width="1" />
+      <text x="12" y="18" fill="#fbbf24" class="p-badge">IMPACT:</text>
+      <text x="65" y="18" fill="#f5ece3" class="p-mono" font-size="10.5">Mobile-First Layouts • Sub-15ms Triage • Accessible Forms</text>
+    </g>
+
+    <!-- Tech Chips -->
+    <g transform="translate(20, 164)">
+      <text x="0" y="16" fill="#8a736d" class="p-mono">TECH:</text>
+      <rect x="42" y="2" width="60" height="18" rx="4" fill="#1b1206" stroke="#36240d" stroke-width="1" />
+      <text x="72" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">HTML5</text>
+
+      <rect x="108" y="2" width="56" height="18" rx="4" fill="#1b1206" stroke="#36240d" stroke-width="1" />
+      <text x="136" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">CSS3</text>
+
+      <rect x="170" y="2" width="102" height="18" rx="4" fill="#1b1206" stroke="#36240d" stroke-width="1" />
+      <text x="221" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">JavaScript ES6+</text>
+
+      <rect x="278" y="2" width="90" height="18" rx="4" fill="#1b1206" stroke="#36240d" stroke-width="1" />
+      <text x="323" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">Responsive UI</text>
+
+      <rect x="374" y="2" width="60" height="18" rx="4" fill="#1b1206" stroke="#36240d" stroke-width="1" />
+      <text x="404" y="14.5" text-anchor="middle" fill="#f5ece3" class="p-mono" font-size="9.5">Analytics</text>
+    </g>
+  </g>
+</svg>

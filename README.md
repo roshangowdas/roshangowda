@@ -1,191 +1,169 @@
 <div align="center">
 
-```
-  ██████╗  ██████╗ ███████╗██╗  ██╗ █████╗ ███╗   ██╗     ██████╗  ██████╗ ██╗    ██╗██████╗  █████╗ 
-  ██╔══██╗██╔═══██╗██╔════╝██║  ██║██╔══██╗████╗  ██║    ██╔════╝ ██╔═══██╗██║    ██║██╔══██╗██╔══██╗
-  ██████╔╝██║   ██║███████╗███████║███████║██╔██╗ ██║    ██║  ███╗██║   ██║██║ █╗ ██║██║  ██║███████║
-  ██╔══██╗██║   ██║╚════██║██╔══██║██╔══██║██║╚██╗██║    ██║   ██║██║   ██║██║███╗██║██║  ██║██╔══██║
-  ██║  ██║╚██████╔╝███████║██║  ██║██║  ██║██║ ╚████║    ╚██████╔╝╚██████╔╝╚███╔███╔╝██████╔╝██║  ██║
-  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝     ╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═════╝ ╚═╝  ╚═╝
-```
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                  CYBER HUD HEADER & LIVE TELEMETRY                  -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<!-- Dynamic Typing SVG Banner -->
 <a href="https://github.com/roshangowdas">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=1000&color=EB1B38&center=true&vCenter=true&multiline=false&width=650&height=45&lines=FULL-STACK+DEVELOPER+(MERN+STACK);REACT.JS+-+NODE.JS+-+TYPESCRIPT+-+MONGODB;AUTHOR+OF+REACT-STATUS-KIT+ON+NPM;RESTFUL+APIS+AND+SECURE+AUTHENTICATION;BUILDING+RESPONSIVE+WEB+APPLICATIONS" alt="Roshan Gowda - Full-Stack Developer" />
+  <img src="assets/portfolio-hero-hud.svg" width="100%" alt="Roshan Gowda S - Full-Stack Engineer Telemetry" />
 </a>
 
 <br/>
 
-[![Portfolio Live](https://img.shields.io/badge/LIVE_PORTFOLIO-0D080A?style=for-the-badge&logo=vercel&logoColor=EB1B38&labelColor=000000)](https://github.com/roshangowdas)
-[![npm react-status-kit](https://img.shields.io/badge/NPM_PACKAGE-react--status--kit-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~roshan__gowda)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-gowda-s-378343283/)
-[![Email](https://img.shields.io/badge/TRANSMIT_EMAIL-0243roshan%40gmail.com-EB1B38?style=for-the-badge&logo=gmail&logoColor=white)](mailto:0243roshan@gmail.com)
+<!-- Dynamic Interactive Typing Stream -->
+<a href="https://github.com/roshangowdas">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=1000&color=EB1B38&center=true&vCenter=true&multiline=false&width=700&height=40&lines=FULL-STACK+DEVELOPER+•+REACT+18+•+NODE.JS+•+TYPESCRIPT;AUTHOR+OF+REACT-STATUS-KIT+ON+NPM+REGISTRY;COLLABSPACE+REAL-TIME+SAAS+•+SUPABASE+16-TABLE+RLS;COMMUNITY+RESOURCE+PLATFORM+•+10+RESTFUL+APIS+•+MONGODB;AVAILABLE+FOR+SOFTWARE+ENGINEERING+ROLES+IN+BENGALURU+%2F+REMOTE" alt="Roshan Gowda Dynamic Typist" />
+</a>
 
 <br/>
 
-<!-- 3D Animated Hero Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,45:1c0a0f,85:eb1b38,100:000000&height=220&section=header&text=ROSHAN%20GOWDA%20S&fontSize=62&fontAlignY=38&desc=Architecting%20Next-Gen%20Web%20Applications%20%7C%20WebGL%20%E2%80%A2%20React%20%E2%80%A2%20Distributed%20Systems&descAlignY=58&descSize=16&animation=twinkling&stroke=eb1b38&strokeWidth=2" width="100%" alt="Roshan Gowda 3D Header" />
+<!-- Interactive Quick Links -->
+[![Live Portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-120D0F?style=for-the-badge&logo=vercel&logoColor=EB1B38&labelColor=000000)](https://github.com/roshangowdas)
+[![npm react-status-kit](https://img.shields.io/badge/NPM_PACKAGE-react--status--kit-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~roshan__gowda)
+[![CollabSpace SaaS](https://img.shields.io/badge/COLLABSPACE-SAAS_REPO-161013?style=for-the-badge&logo=github&logoColor=EB1B38)](https://github.com/roshangowdas/CollabSpace)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-gowda-s-378343283/)
+[![Email Direct](https://img.shields.io/badge/TRANSMIT_EMAIL-0243roshan%40gmail.com-EB1B38?style=for-the-badge&logo=gmail&logoColor=white)](mailto:0243roshan@gmail.com)
 
 </div>
 
 ---
 
-<div align="center">
+### ⚡ ENGINEERING HIGHLIGHTS & ARCHITECTURE IMPACT
 
-### 🚀 ENGINEERING HIGHLIGHTS & IMPACT
-<sub>3D Isometric Card Deck • Click any metric below to expand technical specifications</sub>
+<div align="center">
+<sub>3D Floating Telemetry Cards • Click any metric below to expand verification benchmarks</sub>
 
 <br/><br/>
 
 <a href="https://github.com/roshangowdas">
-  <img src="assets/engineering-metrics-3d.svg" width="100%" alt="3D Isometric Engineering Highlights and Impact" />
+  <img src="assets/engineering-metrics-3d.svg" width="100%" alt="3D Isometric Engineering Metrics" />
 </a>
-
-<br/>
 
 </div>
 
-<details>
-<summary>📦 <b>Metric 1: &lt; 8 KB Component Kit — react-status-kit (Click to inspect)</b></summary>
 <br/>
 
-> **Published on official npm Registry:** Zero runtime dependencies, tree-shakeable ESM/CJS exports, and fully accessible state visualization component suite.
+<details>
+<summary>🛡️ <b>Metric 1: 16-Table PostgreSQL RLS — CollabSpace Real-Time SaaS (Click to inspect)</b></summary>
+<br/>
+
+> **Multi-Tenant Authorization & Security:** Built an enterprise-grade team collaboration SaaS from scratch with strict Row Level Security (RLS) across all 16 PostgreSQL tables, preventing cross-tenant data leakage.
+> - **Sprint Kanban & CRDT Docs:** Real-time synchronized task boards and concurrent multi-user rich text editing.
+> - **Security Audit Coverage:** 100% test pass rate across 74 automated unit tests and 17 security vulnerability domains.
+> - **Source Code:** [github.com/roshangowdas/CollabSpace](https://github.com/roshangowdas/CollabSpace)
+
+</details>
+
+<details>
+<summary>📦 <b>Metric 2: &lt; 8 KB Component Kit — react-status-kit on npm (Click to inspect)</b></summary>
+<br/>
+
+> **Published on the Official npm Registry:** Zero runtime dependencies, tree-shakeable ESM/CJS dual exports, and fully accessible state visualization component suite.
 > - **npm package:** [`react-status-kit`](https://www.npmjs.com/~roshan__gowda)
-> - **Source code:** [github.com/roshangowdas](https://github.com/roshangowdas)
-> - **Bundle impact:** Less than 8 KB minified + gzipped
+> - **Installation:** `npm install react-status-kit`
+> - **Bundle impact:** Less than 8 KB minified + gzipped for dashboard-heavy interfaces.
 
 </details>
 
 <details>
-<summary>🌐 <b>Metric 2: 5+ Production Web Apps — Full-Stack MERN (Click to inspect)</b></summary>
+<summary>🌐 <b>Metric 3: 10 REST APIs — Community Resource Sharing Platform (Click to inspect)</b></summary>
 <br/>
 
-> **Shipped End-to-End Applications:** Engineered responsive web platforms with React 18 frontend architecture, Node.js + Express REST APIs, Firebase Authentication, and MongoDB Atlas database modeling.
-> - **Architecture:** Component-driven UI, state managers, schema validation, secured session handling.
-> - **Projects:** Community Resource Sharing Platform, AI-PetCare, and open-source tooling.
+> **Production MERN Architecture:** Scalable web platform connecting React 18 client-side state with Express.js routing controllers and MongoDB Atlas database schemas.
+> - **Session Management:** Secure token validation with Firebase Authentication and schema-validated endpoints.
+> - **High-Concurrency Indexing:** Optimized document relationships and indexing for fast resource availability queries.
 
 </details>
 
 <details>
-<summary>🎯 <b>Metric 3: -20% Inconsistencies — Layout & Responsive Audits (Click to inspect)</b></summary>
-<br/>
-
-> **Cross-Browser Verification:** Systematic code audits, layout refactoring, CSS Grid/Flexbox normalization, and viewport stress testing across mobile, tablet, and desktop screens.
-> - **Discipline:** Eliminated overflow glitches, normalized font rendering metrics, and guaranteed smooth 60 FPS transitions.
-
-</details>
-
-<details>
-<summary>⚡ <b>Metric 4: 100% Type Discipline — Strict TypeScript Architecture (Click to inspect)</b></summary>
+<summary>⚡ <b>Metric 4: 100% Type Discipline — Strict TypeScript & Zero Compilation Warnings (Click to inspect)</b></summary>
 <br/>
 
 > **Zero Warnings / Zero Any:** Strict TypeScript interfaces across all components, API schemas, and state contracts.
 > - **Tooling:** TypeScript 5.7, Vite 6, strict ESLint rules, and predictable state transitions.
+> - **Runtime Stability:** Audited cross-browser CSS and fixed responsive layout inconsistencies across Chrome, Safari, and Firefox.
 
 </details>
 
 ---
 
-## 📐 3D ANIMATED ARCHITECTURE: HOW WE BUILT THIS PORTFOLIO
-
-The portfolio was engineered from the ground up as a multi-layered, GPU-composited web experience designed to lock at **60 FPS** on desktop and mobile while executing real-time fragment shaders, dynamic spherical canvas projections, kinetic rubberband physics, and synthesized audio.
-
-```mermaid
-flowchart TD
-    subgraph L1["LAYER 1: GPU WEBGL & SHADER COMPOSITOR"]
-        CAD["GLSL Fragment Shader<br/>• CAD Vector Wireframe Rig<br/>• Dot-Matrix Typography Mesh<br/>• 6-Tap Radial Disc Blur Reach<br/>• Idle Radar Sweep Generator"]
-        Glimmer["GlimmerVale WebGL Canvas<br/>• Obsidian Night Meadow Shader<br/>• High-Density GPU Sparkle Field"]
-    end
-
-    subgraph L2["LAYER 2: 3D SPHERICAL ORBIT ENGINE"]
-        Sphere["HTML5 Canvas 3D Sphere<br/>• Fibonacci Spherical Lattice Distribution<br/>• Quaternion Rotation & Velocity Drag<br/>• Real-Time Z-Depth Alpha & Scale Sorting"]
-        Matrix["Skill Matrix Projection<br/>• Dual View Switcher (Orbit ⟷ Matrix)<br/>• Categorized Proficiency Tracks"]
-    end
-
-    subgraph L3["LAYER 3: 60FPS ECO & KINETIC GOVERNOR"]
-        Lenis["Lenis Momentum Scroll<br/>• Virtual Smooth Inertial Scroll"]
-        GSAP["GSAP ScrollTrigger Scrubbing<br/>• Multi-Depth Parallax Timelines"]
-        Eco["Battery & Hardware Telemetry<br/>• Battery Status API Monitoring<br/>• prefers-reduced-motion Detection<br/>• Dynamic Particle Scaling Governor"]
-    end
-
-    subgraph L4["LAYER 4: IN-SITU RUNTIME & HUD TERMINAL"]
-        Sandbox["In-Situ Component Sandbox<br/>• react-status-kit Live Testbed<br/>• Lifecycle State Simulation Engine"]
-        HUD["Command Palette Terminal (Cmd + K)<br/>• Keyboard Navigation System<br/>• Web Audio API Click Synthesizer"]
-    end
-
-    subgraph L5["LAYER 5: REACT BITS KINETIC LAUNCHER"]
-        Sling["SlingButton Slingshot Launcher<br/>• Pointer Capture & Tension Calculation<br/>• Dynamic SVG Band Deformation<br/>• Upward Particle Scatter & Smooth Scroll"]
-    end
-
-    L1 --> L2
-    L2 --> L3
-    L3 --> L4
-    L4 --> L5
-```
-
-<br/>
-
-### 🔬 Architecture Deep Dive
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 1. GPU Shader Compositor
-- **Vector Wordmark Rig:** Custom GLSL fragment shader rendering mathematical CAD vector crosshairs, vertex ticks, and live coordinate HUD readouts `[gx, gy]`.
-- **Dynamic Mouse Reach:** Cursor radius evaluates a 6-tap randomized disc blur algorithm that unveils crisp dot-matrix typography underneath with silky falloff.
-- **Atmospheric Glimmer:** Real-time WebGL shader background featuring night-meadow particle fields tuned in Crimson (`#eb1b38`) & Obsidian.
-
-</td>
-<td width="50%" valign="top">
-
-#### 2. 3D Spherical Physics Orbit
-- **Fibonacci Point Distribution:** 34 tech stack items arranged around a mathematical sphere using golden spiral coordinates.
-- **Momentum Physics:** Interactive drag-to-spin with inertia damping, quaternion rotation matrices, and depth sorting (`z-index` and scale mapping from `0.6x` to `1.0x`).
-- **Dual View Mode:** Instant toggle between 3D orbital space and an analytical grouped Skill Matrix view.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 3. 60 FPS Eco Performance Governor
-- **Hardware Telemetry:** Hook continuously reads CPU hardware concurrency, device RAM, and the Battery Status API.
-- **Eco Throttling:** Automatically drops particle densities and damps GSAP parallax scrub multipliers when on low battery (`< 20%`) or when `prefers-reduced-motion` is active.
-- **Lenis Momentum Sync:** Decoupled virtual scroll ticker integrated seamlessly with GSAP `ScrollTrigger.update`.
-
-</td>
-<td width="50%" valign="top">
-
-#### 4. React Bits Slingshot & Audio Synthesizer
-- **Kinetic SlingButton:** Interactive footer launcher utilizing pointer capture, elastic band deformation via cubic bezier paths, and tension arming at 28px pull.
-- **Particle Burst:** On release, launches an upward cone of 14 crimson physics dots and initiates smooth window scroll.
-- **Synthetic Web Audio:** Zero-download Web Audio API oscillator synthesizing mechanical click audio with sub-1ms latency.
-
-</td>
-</tr>
-</table>
-
----
-
-## 💎 CORE TECHNICAL ARSENAL
+### 🚀 FEATURED KEY PROJECTS SHOWCASE
 
 <div align="center">
 
-#### ⚡ 3D INTERACTIVE TECH RADAR
+<a href="https://github.com/roshangowdas">
+  <img src="assets/projects-matrix-3d.svg" width="100%" alt="3D Projects Showcase Matrix" />
+</a>
+
+</div>
+
+<br/>
+
+| Project | Category | Key Architecture & Tech | Links |
+|:---|:---|:---|:---:|
+| **CollabSpace** | **Real-Time SaaS** | React.js, Vite, Supabase, 16-Table PostgreSQL RLS, WebSockets, Sprint Kanban, CRDT Docs | [**GitHub Repo ↗**](https://github.com/roshangowdas/CollabSpace) |
+| **react-status-kit** | **npm Package** | React 18, TypeScript, Rollup, Zero Runtime Dependencies, Async UI Lifecycle Suite | [**npm Package ↗**](https://www.npmjs.com/~roshan__gowda) • [**GitHub ↗**](https://github.com/roshangowdas) |
+| **Community Platform** | **MERN Stack** | React.js, Node.js, Express.js, MongoDB Atlas, Firebase Auth, 10 RESTful Endpoints | [**GitHub Repo ↗**](https://github.com/roshangowdas) |
+| **AI-PetCare** | **Diagnostic UI** | HTML5, CSS3, JavaScript ES6+, Responsive Layouts, Client-Side Form Validation | [**GitHub Repo ↗**](https://github.com/roshangowdas) |
+
+---
+
+### 💻 TELEMETRY COMMAND PALETTE (CMD + K)
+
+> Experience the interactive terminal directly on the live portfolio by pressing <kbd>⌘K</kbd> or <kbd>Ctrl + K</kbd>.
+
+```bash
+$ roshan --status
+● SYS_TELEMETRY: Online
+● LOCATION: Bengaluru, Karnataka, India [NCET B.E. ISE 2027]
+● STATUS: Available for Software Developer / SWE Roles
+
+$ roshan --projects --featured
+1. CollabSpace       [Real-Time Team Collaboration SaaS • 16-Table Supabase RLS]
+2. react-status-kit  [Open-Source Component Suite Published on official npm Registry]
+3. Community Platform[Full-Stack MERN Architecture • 10 RESTful APIs • Firebase Auth]
+4. AI-PetCare        [Interactive Diagnostic Dashboard • Mobile-First Analytics]
+
+$ roshan --contact
+✉ Email: 0243roshan@gmail.com
+★ GitHub: https://github.com/roshangowdas
+🔗 LinkedIn: https://www.linkedin.com/in/roshan-gowda-s-378343283/
+```
+
+---
+
+### 💎 CORE TECHNICAL ARSENAL & PROFICIENCY
+
+<div align="center">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nodejs,express,mongodb,tailwind,html,css,python,java,cpp,c,git,github,npm,firebase,vite,postman,vscode&perline=10&theme=dark" alt="3D Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nodejs,express,mongodb,tailwind,html,css,python,java,cpp,c,git,github,npm,firebase,supabase,vite,postman,vscode&perline=11&theme=dark" alt="Technical Arsenal" />
 </a>
 
 <br/><br/>
 
 | Domain | Primary Technologies | Architecture Focus |
 |:---|:---|:---|
-| **Frontend & UI Architecture** | **React 18**, TypeScript, Tailwind CSS, HTML5 Canvas, GSAP, Framer Motion | Component modularity, kinetic animations, responsive design, 60 FPS rendering |
+| **Frontend & UI Architecture** | **React.js (v18)**, TypeScript, Tailwind CSS, HTML5 Canvas, Framer Motion | Component modularity, kinetic animations, responsive design, 60 FPS rendering |
 | **Backend & Microservices** | **Node.js**, Express.js, REST API Architecture, JWT, Firebase Auth | Controller routing, middleware security, payload validation, non-blocking I/O |
-| **Databases & Cloud** | **MongoDB (Mongoose ODM)**, SQL, Schemas, Firebase Cloud | Document modeling, aggregation pipelines, query optimization, data integrity |
-| **DevOps & Tooling** | Git, GitHub, npm Packaging, Rollup/Vite, Web Audio API, WebGL Shaders | Modular package publishing, asset optimization, zero-dependency audio synthesis |
+| **Databases & Cloud** | **PostgreSQL (Supabase)**, MongoDB (Mongoose ODM), SQL, Schemas | Row Level Security (RLS), document modeling, query optimization, data integrity |
+| **DevOps & Tooling** | Git, GitHub, npm Packaging, Rollup/Vite, Web Audio API, WebSockets | Modular package publishing, asset optimization, zero-dependency audio synthesis |
+
+</div>
+
+---
+
+### 📜 VERIFIED CREDENTIALS & CERTIFICATIONS
+
+<div align="center">
+
+| Credential | Issuing Institution | Verification & Focus |
+|:---|:---|:---|
+| **HTML & CSS Essentials** | **Cisco Networking Academy** | Semantic Web, Responsive Layouts & Accessibility |
+| **JavaScript Essentials 1 & 2** | **Cisco Networking Academy** | ES6+, Event Loop, Asynchronous Programming & Closures |
+| **Python Programming Specialization** | **Red Hat** | Automation Tooling, Scripting & Data Structures |
+| **Java Course Specialization** | **Scaler Topics** | OOP, JVM Architecture, Collections & Algorithms |
+| **Generative AI & Prompt Engineering** | **IBM Skills Network** | Foundation Models, AI Applications & Optimization |
 
 </div>
 
@@ -195,7 +173,7 @@ flowchart TD
 
 ### 📡 INITIALIZE TRANSMISSION
 
-Looking for a dedicated Software Developer or full-stack contributor? Let's build something extraordinary together.
+Looking for a dedicated Software Developer or full-stack contributor for your engineering team? Let's build something extraordinary together.
 
 <br/>
 

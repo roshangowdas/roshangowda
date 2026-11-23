@@ -1,78 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" width="100%" height="100%">
   <defs>
-    <!-- Dark Glassmorphic Card Gradients -->
-    <linearGradient id="cardGrad1" x1="0" y1="0" x2="0.2" y2="1">
-      <stop offset="0%" stop-color="#1f0f14" />
-      <stop offset="50%" stop-color="#13080b" />
-      <stop offset="100%" stop-color="#0a0406" />
+    <!-- Dark Glassmorphic Card Gradients with Hoy/Obsidian Undertones -->
+    <linearGradient id="cardGrad1" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#240c13" />
+      <stop offset="50%" stop-color="#14070a" />
+      <stop offset="100%" stop-color="#0a0305" />
     </linearGradient>
-    <linearGradient id="cardGrad2" x1="0" y1="0" x2="0.2" y2="1">
-      <stop offset="0%" stop-color="#14121a" />
-      <stop offset="50%" stop-color="#0a0a10" />
-      <stop offset="100%" stop-color="#050508" />
+    <linearGradient id="cardGrad2" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#220e16" />
+      <stop offset="50%" stop-color="#14070c" />
+      <stop offset="100%" stop-color="#090306" />
     </linearGradient>
-    <linearGradient id="cardGrad3" x1="0" y1="0" x2="0.2" y2="1">
-      <stop offset="0%" stop-color="#1c1012" />
-      <stop offset="50%" stop-color="#11090a" />
-      <stop offset="100%" stop-color="#080304" />
+    <linearGradient id="cardGrad3" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#0c1824" />
+      <stop offset="50%" stop-color="#070f17" />
+      <stop offset="100%" stop-color="#04080c" />
     </linearGradient>
-    <linearGradient id="cardGrad4" x1="0" y1="0" x2="0.2" y2="1">
-      <stop offset="0%" stop-color="#1a140f" />
-      <stop offset="50%" stop-color="#0f0b08" />
-      <stop offset="100%" stop-color="#080503" />
+    <linearGradient id="cardGrad4" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1c160a" />
+      <stop offset="50%" stop-color="#120e06" />
+      <stop offset="100%" stop-color="#0a0703" />
     </linearGradient>
 
     <!-- 3D Bevel Top Rim Highlights -->
-    <linearGradient id="rimRed" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ff3355" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#eb1b38" stop-opacity="0.4" />
+    <linearGradient id="rimCrimson" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2647" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#eb1b38" stop-opacity="0.5" />
       <stop offset="100%" stop-color="#800b1a" stop-opacity="0.1" />
     </linearGradient>
-    <linearGradient id="rimCyan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#0369a1" stop-opacity="0.1" />
-    </linearGradient>
     <linearGradient id="rimRose" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#e11d48" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#e11d48" stop-opacity="0.5" />
       <stop offset="100%" stop-color="#881337" stop-opacity="0.1" />
     </linearGradient>
+    <linearGradient id="rimCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0.1" />
+    </linearGradient>
     <linearGradient id="rimAmber" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#d97706" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#d97706" stop-opacity="0.5" />
       <stop offset="100%" stop-color="#78350f" stop-opacity="0.1" />
     </linearGradient>
 
     <!-- Radial Glow Behind Cards -->
-    <radialGradient id="glowRed" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#eb1b38" stop-opacity="0.35" />
+    <radialGradient id="glowCrimson" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eb1b38" stop-opacity="0.32" />
       <stop offset="100%" stop-color="#eb1b38" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
-    </radialGradient>
     <radialGradient id="glowRose" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.3" />
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.30" />
       <stop offset="100%" stop-color="#e11d48" stop-opacity="0" />
     </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
     <radialGradient id="glowAmber" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#d97706" stop-opacity="0.3" />
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.28" />
       <stop offset="100%" stop-color="#d97706" stop-opacity="0" />
     </radialGradient>
 
-    <!-- 3D Shadow Filters -->
+    <!-- 3D Elevation Drop Shadows -->
     <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="140%">
-      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000000" flood-opacity="0.85" />
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000000" flood-opacity="0.88" />
     </filter>
   </defs>
 
   <style>
-    .card-wrap {
-      transform-origin: center;
-      transition: transform 0.3s ease;
-    }
     @keyframes float1 {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-7px); }
@@ -99,125 +95,133 @@
     .badge-txt { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 10px; letter-spacing: 0.08em; }
   </style>
 
-  <!-- ==================== CARD 1: < 8 KB COMPONENT KIT ==================== -->
-  <g class="card-wrap f-1" transform="translate(15, 18)">
-    <circle cx="115" cy="115" r="95" fill="url(#glowRed)" />
-    <!-- 3D Card Body -->
-    <rect x="0" y="0" width="230" height="230" rx="18" fill="url(#cardGrad1)" stroke="#38151c" stroke-width="1.5" filter="url(#cardShadow)" />
-    <path d="M 18 0 L 212 0" stroke="url(#rimRed)" stroke-width="2.5" stroke-linecap="round" />
-    
-    <!-- Top Row: Icon + Badge -->
-    <g transform="translate(18, 20)">
-      <rect x="0" y="0" width="38" height="38" rx="10" fill="#240c12" stroke="#eb1b38" stroke-opacity="0.5" stroke-width="1.2" />
-      <!-- 3D Isometric Cube Icon -->
-      <path d="M 19 9 L 29 14 L 19 19 L 9 14 Z" fill="#eb1b38" />
-      <path d="M 9 14 L 19 19 L 19 29 L 9 24 Z" fill="#b91329" />
-      <path d="M 29 14 L 19 19 L 19 29 L 29 24 Z" fill="#ff4d66" />
-      <rect x="135" y="6" width="60" height="20" rx="6" fill="#eb1b38" fill-opacity="0.15" stroke="#eb1b38" stroke-opacity="0.4" stroke-width="1" />
-      <text x="165" y="19.5" text-anchor="middle" fill="#ff4d66" class="badge-txt">PACKAGE</text>
-    </g>
+  <!-- ==================== CARD 1: COLLABSPACE (x=15) ==================== -->
+  <g transform="translate(15, 18)">
+    <g class="f-1">
+      <circle cx="115" cy="115" r="95" fill="url(#glowCrimson)" />
+      <!-- 3D Card Body -->
+      <rect x="0" y="0" width="230" height="230" rx="18" fill="url(#cardGrad1)" stroke="#3f131a" stroke-width="1.5" filter="url(#cardShadow)" />
+      <path d="M 18 0 L 212 0" stroke="url(#rimCrimson)" stroke-width="2.5" stroke-linecap="round" />
+      
+      <!-- Top Row: Icon + Badge -->
+      <g transform="translate(18, 20)">
+        <rect x="0" y="0" width="38" height="38" rx="10" fill="#260b11" stroke="#eb1b38" stroke-opacity="0.5" stroke-width="1.2" />
+        <!-- 3D Layered SaaS Nodes Icon -->
+        <path d="M 19 9 L 29 14 L 19 19 L 9 14 Z" fill="#eb1b38" />
+        <path d="M 9 17 L 19 22 L 29 17" fill="none" stroke="#ff4d66" stroke-width="1.5" stroke-linecap="round" />
+        <path d="M 9 23 L 19 28 L 29 23" fill="none" stroke="#eb1b38" stroke-width="1.5" stroke-linecap="round" />
+        <rect x="135" y="6" width="60" height="20" rx="6" fill="#eb1b38" fill-opacity="0.15" stroke="#eb1b38" stroke-opacity="0.4" stroke-width="1" />
+        <text x="165" y="19.5" text-anchor="middle" fill="#ff4d66" class="badge-txt">SAAS</text>
+      </g>
 
-    <!-- Value Metric -->
-    <text x="20" y="105" fill="#ffffff" class="title-txt" font-size="34" letter-spacing="-0.03em">&lt; 8 KB</text>
-    <!-- Label -->
-    <text x="20" y="132" fill="#f5ece3" class="sub-txt" font-size="14">Lightweight Component Kit</text>
-    <!-- Detail Description -->
-    <text x="20" y="160" fill="#a89589" class="body-txt" font-size="11">Zero dependencies • Published</text>
-    <text x="20" y="177" fill="#eb1b38" class="body-txt" font-size="11" font-weight="700">react-status-kit on npm</text>
-    <!-- Bottom 3D Depth Stripe -->
-    <line x1="20" y1="206" x2="210" y2="206" stroke="#240f13" stroke-width="1" />
-    <circle cx="25" cy="206" r="2" fill="#eb1b38" />
-    <text x="35" y="210" fill="#6e5a56" class="badge-txt" font-size="9">TREE-SHAKEABLE ESM</text>
+      <!-- Value Metric -->
+      <text x="20" y="105" fill="#ffffff" class="title-txt" font-size="32" letter-spacing="-0.03em">16-Table RLS</text>
+      <!-- Label -->
+      <text x="20" y="132" fill="#f5ece3" class="sub-txt" font-size="14">CollabSpace Platform</text>
+      <!-- Detail Description -->
+      <text x="20" y="160" fill="#a89589" class="body-txt" font-size="11">Sprint Kanban • CRDT Docs</text>
+      <text x="20" y="177" fill="#eb1b38" class="body-txt" font-size="11" font-weight="700">74 Tests Passing • Supabase</text>
+      <!-- Bottom 3D Depth Stripe -->
+      <line x1="20" y1="206" x2="210" y2="206" stroke="#240f13" stroke-width="1" />
+      <circle cx="25" cy="206" r="2" fill="#eb1b38" />
+      <text x="35" y="210" fill="#804a52" class="badge-txt" font-size="9">ROW-LEVEL SECURITY</text>
+    </g>
   </g>
 
-  <!-- ==================== CARD 2: 5+ PRODUCTION APPS ==================== -->
-  <g class="card-wrap f-2" transform="translate(260, 18)">
-    <circle cx="115" cy="115" r="95" fill="url(#glowCyan)" />
-    <!-- 3D Card Body -->
-    <rect x="0" y="0" width="230" height="230" rx="18" fill="url(#cardGrad2)" stroke="#1a2030" stroke-width="1.5" filter="url(#cardShadow)" />
-    <path d="M 18 0 L 212 0" stroke="url(#rimCyan)" stroke-width="2.5" stroke-linecap="round" />
-    
-    <!-- Top Row: Icon + Badge -->
-    <g transform="translate(18, 20)">
-      <rect x="0" y="0" width="38" height="38" rx="10" fill="#0d1829" stroke="#0ea5e9" stroke-opacity="0.5" stroke-width="1.2" />
-      <!-- Globe / Network 3D Nodes Icon -->
-      <circle cx="19" cy="19" r="8" fill="none" stroke="#38bdf8" stroke-width="1.5" />
-      <ellipse cx="19" cy="19" rx="3.5" ry="8" fill="none" stroke="#38bdf8" stroke-width="1.2" />
-      <line x1="11" y1="19" x2="27" y2="19" stroke="#38bdf8" stroke-width="1.2" />
-      <rect x="135" y="6" width="60" height="20" rx="6" fill="#0284c7" fill-opacity="0.15" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1" />
-      <text x="165" y="19.5" text-anchor="middle" fill="#38bdf8" class="badge-txt">SHIPPED</text>
-    </g>
+  <!-- ==================== CARD 2: REACT-STATUS-KIT (x=260) ==================== -->
+  <g transform="translate(260, 18)">
+    <g class="f-2">
+      <circle cx="115" cy="115" r="95" fill="url(#glowRose)" />
+      <!-- 3D Card Body -->
+      <rect x="0" y="0" width="230" height="230" rx="18" fill="url(#cardGrad2)" stroke="#38101a" stroke-width="1.5" filter="url(#cardShadow)" />
+      <path d="M 18 0 L 212 0" stroke="url(#rimRose)" stroke-width="2.5" stroke-linecap="round" />
+      
+      <!-- Top Row: Icon + Badge -->
+      <g transform="translate(18, 20)">
+        <rect x="0" y="0" width="38" height="38" rx="10" fill="#200a12" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1.2" />
+        <!-- 3D Isometric Cube Package Icon -->
+        <path d="M 19 9 L 29 14 L 19 19 L 9 14 Z" fill="#fb7185" />
+        <path d="M 9 14 L 19 19 L 19 29 L 9 24 Z" fill="#be123c" />
+        <path d="M 29 14 L 19 19 L 19 29 L 29 24 Z" fill="#f43f5e" />
+        <rect x="135" y="6" width="60" height="20" rx="6" fill="#f43f5e" fill-opacity="0.15" stroke="#f43f5e" stroke-opacity="0.4" stroke-width="1" />
+        <text x="165" y="19.5" text-anchor="middle" fill="#fb7185" class="badge-txt">NPM</text>
+      </g>
 
-    <!-- Value Metric -->
-    <text x="20" y="105" fill="#ffffff" class="title-txt" font-size="34" letter-spacing="-0.03em">5+ Apps</text>
-    <!-- Label -->
-    <text x="20" y="132" fill="#f5ece3" class="sub-txt" font-size="14">Full-Stack Production Apps</text>
-    <!-- Detail Description -->
-    <text x="20" y="160" fill="#a89589" class="body-txt" font-size="11">MERN Stack • React • Node</text>
-    <text x="20" y="177" fill="#38bdf8" class="body-txt" font-size="11" font-weight="700">Express &amp; MongoDB Atlas</text>
-    <!-- Bottom 3D Depth Stripe -->
-    <line x1="20" y1="206" x2="210" y2="206" stroke="#101a2b" stroke-width="1" />
-    <circle cx="25" cy="206" r="2" fill="#0ea5e9" />
-    <text x="35" y="210" fill="#586e82" class="badge-txt" font-size="9">HIGH AVAILABILITY</text>
+      <!-- Value Metric -->
+      <text x="20" y="105" fill="#ffffff" class="title-txt" font-size="32" letter-spacing="-0.03em">&lt; 8 KB</text>
+      <!-- Label -->
+      <text x="20" y="132" fill="#f5ece3" class="sub-txt" font-size="14">react-status-kit (npm)</text>
+      <!-- Detail Description -->
+      <text x="20" y="160" fill="#a89589" class="body-txt" font-size="11">Zero dependencies • ESM</text>
+      <text x="20" y="177" fill="#fb7185" class="body-txt" font-size="11" font-weight="700">Async UI State Suite</text>
+      <!-- Bottom 3D Depth Stripe -->
+      <line x1="20" y1="206" x2="210" y2="206" stroke="#2a0d16" stroke-width="1" />
+      <circle cx="25" cy="206" r="2" fill="#f43f5e" />
+      <text x="35" y="210" fill="#7a4654" class="badge-txt" font-size="9">PUBLISHED REGISTRY</text>
+    </g>
   </g>
 
-  <!-- ==================== CARD 3: -20% INCONSISTENCIES ==================== -->
-  <g class="card-wrap f-3" transform="translate(505, 18)">
-    <circle cx="115" cy="115" r="95" fill="url(#glowRose)" />
-    <!-- 3D Card Body -->
-    <rect x="0" y="0" width="230" height="230" rx="18" fill="url(#cardGrad3)" stroke="#2b1419" stroke-width="1.5" filter="url(#cardShadow)" />
-    <path d="M 18 0 L 212 0" stroke="url(#rimRose)" stroke-width="2.5" stroke-linecap="round" />
-    
-    <!-- Top Row: Icon + Badge -->
-    <g transform="translate(18, 20)">
-      <rect x="0" y="0" width="38" height="38" rx="10" fill="#240e14" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1.2" />
-      <!-- Target / Audit Shield Icon -->
-      <circle cx="19" cy="19" r="8" fill="none" stroke="#fb7185" stroke-width="1.5" />
-      <circle cx="19" cy="19" r="4.5" fill="none" stroke="#f43f5e" stroke-width="1.2" />
-      <circle cx="19" cy="19" r="1.5" fill="#ffffff" />
-      <rect x="135" y="6" width="60" height="20" rx="6" fill="#e11d48" fill-opacity="0.15" stroke="#e11d48" stroke-opacity="0.4" stroke-width="1" />
-      <text x="165" y="19.5" text-anchor="middle" fill="#fb7185" class="badge-txt">AUDITING</text>
-    </g>
+  <!-- ==================== CARD 3: COMMUNITY RESOURCE PLATFORM (x=505) ==================== -->
+  <g transform="translate(505, 18)">
+    <g class="f-3">
+      <circle cx="115" cy="115" r="95" fill="url(#glowCyan)" />
+      <!-- 3D Card Body -->
+      <rect x="0" y="0" width="230" height="230" rx="18" fill="url(#cardGrad3)" stroke="#112433" stroke-width="1.5" filter="url(#cardShadow)" />
+      <path d="M 18 0 L 212 0" stroke="url(#rimCyan)" stroke-width="2.5" stroke-linecap="round" />
+      
+      <!-- Top Row: Icon + Badge -->
+      <g transform="translate(18, 20)">
+        <rect x="0" y="0" width="38" height="38" rx="10" fill="#091520" stroke="#0ea5e9" stroke-opacity="0.5" stroke-width="1.2" />
+        <!-- Globe / Network 3D Nodes Icon -->
+        <circle cx="19" cy="19" r="8" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+        <ellipse cx="19" cy="19" rx="3.5" ry="8" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+        <line x1="11" y1="19" x2="27" y2="19" stroke="#38bdf8" stroke-width="1.2" />
+        <rect x="135" y="6" width="60" height="20" rx="6" fill="#0284c7" fill-opacity="0.15" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1" />
+        <text x="165" y="19.5" text-anchor="middle" fill="#38bdf8" class="badge-txt">MERN</text>
+      </g>
 
-    <!-- Value Metric -->
-    <text x="20" y="105" fill="#ffffff" class="title-txt" font-size="34" letter-spacing="-0.03em">-20%</text>
-    <!-- Label -->
-    <text x="20" y="132" fill="#f5ece3" class="sub-txt" font-size="14">Layout Inconsistencies</text>
-    <!-- Detail Description -->
-    <text x="20" y="160" fill="#a89589" class="body-txt" font-size="11">Cross-browser code audits</text>
-    <text x="20" y="177" fill="#fb7185" class="body-txt" font-size="11" font-weight="700">Responsive grid refactoring</text>
-    <!-- Bottom 3D Depth Stripe -->
-    <line x1="20" y1="206" x2="210" y2="206" stroke="#2b1419" stroke-width="1" />
-    <circle cx="25" cy="206" r="2" fill="#f43f5e" />
-    <text x="35" y="210" fill="#755259" class="badge-txt" font-size="9">MOBILE-FIRST COMPLIANCE</text>
+      <!-- Value Metric -->
+      <text x="20" y="105" fill="#ffffff" class="title-txt" font-size="32" letter-spacing="-0.03em">10 REST APIs</text>
+      <!-- Label -->
+      <text x="20" y="132" fill="#f5ece3" class="sub-txt" font-size="14">Community Platform</text>
+      <!-- Detail Description -->
+      <text x="20" y="160" fill="#a89589" class="body-txt" font-size="11">Express.js • MongoDB Atlas</text>
+      <text x="20" y="177" fill="#38bdf8" class="body-txt" font-size="11" font-weight="700">Firebase Session Auth</text>
+      <!-- Bottom 3D Depth Stripe -->
+      <line x1="20" y1="206" x2="210" y2="206" stroke="#0d1b28" stroke-width="1" />
+      <circle cx="25" cy="206" r="2" fill="#0ea5e9" />
+      <text x="35" y="210" fill="#446a82" class="badge-txt" font-size="9">ROLE-BASED ACCESS</text>
+    </g>
   </g>
 
-  <!-- ==================== CARD 4: 100% TYPE DISCIPLINE ==================== -->
-  <g class="card-wrap f-4" transform="translate(750, 18)">
-    <circle cx="115" cy="115" r="95" fill="url(#glowAmber)" />
-    <!-- 3D Card Body -->
-    <rect x="0" y="0" width="230" height="230" rx="18" fill="url(#cardGrad4)" stroke="#2b2012" stroke-width="1.5" filter="url(#cardShadow)" />
-    <path d="M 18 0 L 212 0" stroke="url(#rimAmber)" stroke-width="2.5" stroke-linecap="round" />
-    
-    <!-- Top Row: Icon + Badge -->
-    <g transform="translate(18, 20)">
-      <rect x="0" y="0" width="38" height="38" rx="10" fill="#241a0d" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1.2" />
-      <!-- Lightning Bolt / Code Discipline Icon -->
-      <path d="M 20 8 L 12 19 L 18 19 L 16 30 L 26 17 L 20 17 Z" fill="#fbbf24" stroke="#d97706" stroke-width="0.8" />
-      <rect x="135" y="6" width="60" height="20" rx="6" fill="#d97706" fill-opacity="0.15" stroke="#d97706" stroke-opacity="0.4" stroke-width="1" />
-      <text x="165" y="19.5" text-anchor="middle" fill="#fbbf24" class="badge-txt">QUALITY</text>
-    </g>
+  <!-- ==================== CARD 4: 100% CODE DISCIPLINE (x=750) ==================== -->
+  <g transform="translate(750, 18)">
+    <g class="f-4">
+      <circle cx="115" cy="115" r="95" fill="url(#glowAmber)" />
+      <!-- 3D Card Body -->
+      <rect x="0" y="0" width="230" height="230" rx="18" fill="url(#cardGrad4)" stroke="#31220f" stroke-width="1.5" filter="url(#cardShadow)" />
+      <path d="M 18 0 L 212 0" stroke="url(#rimAmber)" stroke-width="2.5" stroke-linecap="round" />
+      
+      <!-- Top Row: Icon + Badge -->
+      <g transform="translate(18, 20)">
+        <rect x="0" y="0" width="38" height="38" rx="10" fill="#201507" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1.2" />
+        <!-- Lightning Bolt / Quality Shield Icon -->
+        <path d="M 20 8 L 12 19 L 18 19 L 16 30 L 26 17 L 20 17 Z" fill="#fbbf24" stroke="#d97706" stroke-width="0.8" />
+        <rect x="135" y="6" width="60" height="20" rx="6" fill="#d97706" fill-opacity="0.15" stroke="#d97706" stroke-opacity="0.4" stroke-width="1" />
+        <text x="165" y="19.5" text-anchor="middle" fill="#fbbf24" class="badge-txt">QUALITY</text>
+      </g>
 
-    <!-- Value Metric -->
-    <text x="20" y="105" fill="#ffffff" class="title-txt" font-size="34" letter-spacing="-0.03em">100%</text>
-    <!-- Label -->
-    <text x="20" y="132" fill="#f5ece3" class="sub-txt" font-size="14">Type &amp; Code Discipline</text>
-    <!-- Detail Description -->
-    <text x="20" y="160" fill="#a89589" class="body-txt" font-size="11">Strict TypeScript types</text>
-    <text x="20" y="177" fill="#fbbf24" class="body-txt" font-size="11" font-weight="700">Predictable state contracts</text>
-    <!-- Bottom 3D Depth Stripe -->
-    <line x1="20" y1="206" x2="210" y2="206" stroke="#2b2012" stroke-width="1" />
-    <circle cx="25" cy="206" r="2" fill="#f59e0b" />
-    <text x="35" y="210" fill="#78654b" class="badge-txt" font-size="9">ZERO COMPILATION WARNINGS</text>
+      <!-- Value Metric -->
+      <text x="20" y="105" fill="#ffffff" class="title-txt" font-size="32" letter-spacing="-0.03em">100%</text>
+      <!-- Label -->
+      <text x="20" y="132" fill="#f5ece3" class="sub-txt" font-size="14">Type &amp; Code Discipline</text>
+      <!-- Detail Description -->
+      <text x="20" y="160" fill="#a89589" class="body-txt" font-size="11">Strict TypeScript types</text>
+      <text x="20" y="177" fill="#fbbf24" class="body-txt" font-size="11" font-weight="700">Predictable state contracts</text>
+      <!-- Bottom 3D Depth Stripe -->
+      <line x1="20" y1="206" x2="210" y2="206" stroke="#251a0b" stroke-width="1" />
+      <circle cx="25" cy="206" r="2" fill="#f59e0b" />
+      <text x="35" y="210" fill="#78613f" class="badge-txt" font-size="9">ZERO COMPILATION WARNINGS</text>
+    </g>
   </g>
 </svg>

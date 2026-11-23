@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="hudBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14080b" />
+      <stop offset="40%" stop-color="#0a0507" />
+      <stop offset="100%" stop-color="#040203" />
+    </linearGradient>
+
+    <linearGradient id="hudBorder" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eb1b38" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#54131d" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#eb1b38" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#2b0a0f" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="crimsonText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f5ece3" />
+      <stop offset="100%" stop-color="#ff4d66" />
+    </linearGradient>
+
+    <radialGradient id="hudGlow" cx="15%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#eb1b38" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#eb1b38" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="hudGlowRight" cx="85%" cy="60%" r="45%">
+      <stop offset="0%" stop-color="#ff2647" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ff2647" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cadGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(212, 190, 171, 0.04)" stroke-width="1" />
+      <circle cx="30" cy="30" r="1" fill="rgba(235, 27, 56, 0.2)" />
+    </pattern>
+
+    <!-- Filter for Glow -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-10px); opacity: 0; }
+      50% { opacity: 0.6; }
+      100% { transform: translateY(240px); opacity: 0; }
+    }
+    .pulse-glow { animation: pulseDot 2.4s ease-in-out infinite; transform-origin: center; }
+    .scan-beam { animation: scanline 6s linear infinite; }
+    .mono-hud { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .display-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-weight: 900; }
+  </style>
+
+  <!-- Base Container Box -->
+  <rect x="0" y="0" width="1000" height="240" rx="20" fill="url(#hudBg)" stroke="url(#hudBorder)" stroke-width="2" />
+  
+  <!-- Subtle CAD Grid Overlay -->
+  <rect x="0" y="0" width="1000" height="240" rx="20" fill="url(#cadGrid)" />
+
+  <!-- Ambient Ambient Glows -->
+  <circle cx="150" cy="70" r="140" fill="url(#hudGlow)" />
+  <circle cx="850" cy="140" r="160" fill="url(#hudGlowRight)" />
+
+  <!-- CAD Blueprint Corner Brackets -->
+  <path d="M 12 36 L 12 12 L 36 12" fill="none" stroke="#eb1b38" stroke-width="2.5" />
+  <path d="M 964 12 L 988 12 L 988 36" fill="none" stroke="#eb1b38" stroke-width="2.5" />
+  <path d="M 12 204 L 12 228 L 36 228" fill="none" stroke="#eb1b38" stroke-width="2.5" />
+  <path d="M 964 228 L 988 228 L 988 204" fill="none" stroke="#eb1b38" stroke-width="2.5" />
+
+  <!-- Top Telemetry Bar -->
+  <g transform="translate(36, 32)">
+    <circle cx="6" cy="6" r="4.5" fill="#eb1b38" class="pulse-glow" filter="url(#neonGlow)" />
+    <text x="20" y="10" fill="#eb1b38" class="mono-hud" font-size="11" font-weight="700" letter-spacing="0.12em">SYS_TELEMETRY // ID: ROSHAN.DEV</text>
+    <rect x="260" y="-1" width="120" height="18" rx="5" fill="#eb1b38" fill-opacity="0.12" stroke="#eb1b38" stroke-opacity="0.4" stroke-width="1" />
+    <text x="320" y="11" text-anchor="middle" fill="#f5ece3" class="mono-hud" font-size="9" font-weight="700">STATUS: ACTIVE</text>
+    <text x="910" y="10" text-anchor="end" fill="#8a736d" class="mono-hud" font-size="10">BLR_IN [12.9716° N, 77.5946° E]</text>
+  </g>
+
+  <!-- Main Hero Identity -->
+  <g transform="translate(36, 75)">
+    <!-- Main Display Typography -->
+    <text x="0" y="46" fill="url(#crimsonText)" class="display-title" font-size="44" letter-spacing="-0.03em">ROSHAN GOWDA S</text>
+    <text x="470" y="46" fill="#eb1b38" class="display-title" font-size="44" letter-spacing="-0.03em">.</text>
+    
+    <!-- Role Subtitle Tagline -->
+    <text x="2" y="76" fill="#f5ece3" class="mono-hud" font-size="13" font-weight="700" letter-spacing="0.08em">FULL-STACK ENGINEER • MERN ARCHITECT • OPEN-SOURCE AUTHOR</text>
+    <text x="2" y="98" fill="#a89589" class="mono-hud" font-size="10.5">Architecting high-performance React apps, secured REST APIs, and component suites.</text>
+  </g>
+
+  <!-- Right Side Interactive Telemetry Card Module -->
+  <g transform="translate(680, 52)">
+    <rect x="0" y="0" width="280" height="152" rx="14" fill="#140b0f" stroke="#3b171f" stroke-width="1.2" />
+    <path d="M 12 0 L 268 0" stroke="url(#rimCrimson)" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Top mini HUD header -->
+    <text x="16" y="22" fill="#eb1b38" class="mono-hud" font-size="9" font-weight="700" letter-spacing="0.1em">TACTICAL TELEMETRY</text>
+    <circle cx="258" cy="18" r="3" fill="#22c55e" />
+
+    <!-- Stat 1: Shipped Projects -->
+    <g transform="translate(16, 42)">
+      <text x="0" y="12" fill="#8a736d" class="mono-hud" font-size="10">SHIPPED WEB APPS</text>
+      <text x="248" y="12" text-anchor="end" fill="#ffffff" class="display-title" font-size="15">6+ APPS</text>
+      <line x1="0" y1="18" x2="248" y2="18" stroke="#261217" stroke-width="1" />
+    </g>
+
+    <!-- Stat 2: NPM Library -->
+    <g transform="translate(16, 70)">
+      <text x="0" y="12" fill="#8a736d" class="mono-hud" font-size="10">NPM OPEN SOURCE</text>
+      <text x="248" y="12" text-anchor="end" fill="#ff4d66" class="mono-hud" font-size="12" font-weight="700">react-status-kit</text>
+      <line x1="0" y1="18" x2="248" y2="18" stroke="#261217" stroke-width="1" />
+    </g>
+
+    <!-- Stat 3: Architecture RLS -->
+    <g transform="translate(16, 98)">
+      <text x="0" y="12" fill="#8a736d" class="mono-hud" font-size="10">SECURITY &amp; RLS</text>
+      <text x="248" y="12" text-anchor="end" fill="#38bdf8" class="mono-hud" font-size="12" font-weight="700">16-Table RLS</text>
+      <line x1="0" y1="18" x2="248" y2="18" stroke="#261217" stroke-width="1" />
+    </g>
+
+    <!-- Stat 4: Test Pass Rate -->
+    <g transform="translate(16, 126)">
+      <text x="0" y="12" fill="#8a736d" class="mono-hud" font-size="10">TEST SUITE PASS</text>
+      <text x="248" y="12" text-anchor="end" fill="#fbbf24" class="display-title" font-size="14">74/74 (100%)</text>
+    </g>
+  </g>
+
+  <!-- Bottom Interactive Pill Chips -->
+  <g transform="translate(36, 194)">
+    <!-- Pill 1: Graduation -->
+    <rect x="0" y="0" width="165" height="24" rx="12" fill="#1f0c12" stroke="#4a1822" stroke-width="1" />
+    <circle cx="12" cy="12" r="3" fill="#eb1b38" />
+    <text x="24" y="16" fill="#f5ece3" class="mono-hud" font-size="9" font-weight="700">B.E. ISE GRAD 2027</text>
+
+    <!-- Pill 2: Stack -->
+    <rect x="175" y="0" width="180" height="24" rx="12" fill="#1f0c12" stroke="#4a1822" stroke-width="1" />
+    <circle cx="187" cy="12" r="3" fill="#eb1b38" />
+    <text x="199" y="16" fill="#f5ece3" class="mono-hud" font-size="9" font-weight="700">REACT • NODE • MONGODB</text>
+
+    <!-- Pill 3: Location -->
+    <rect x="365" y="0" width="165" height="24" rx="12" fill="#1f0c12" stroke="#4a1822" stroke-width="1" />
+    <circle cx="377" cy="12" r="3" fill="#22c55e" />
+    <text x="389" y="16" fill="#f5ece3" class="mono-hud" font-size="9" font-weight="700">OPEN TO SWE ROLES</text>
+  </g>
+
+</svg>
