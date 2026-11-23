@@ -153,19 +153,97 @@ $ roshan --contact
 
 ---
 
-### 📜 VERIFIED CREDENTIALS & CERTIFICATIONS
+### 📜 3D VERIFIED CREDENTIALS & ENGINEERING PIPELINE
 
 <div align="center">
+<sub>Interactive Engineering Certification Architecture • Continuous Verification Pipeline</sub>
 
-| Credential | Issuing Institution | Verification & Focus |
-|:---|:---|:---|
-| **HTML & CSS Essentials** | **Cisco Networking Academy** | Semantic Web, Responsive Layouts & Accessibility |
-| **JavaScript Essentials 1 & 2** | **Cisco Networking Academy** | ES6+, Event Loop, Asynchronous Programming & Closures |
-| **Python Programming Specialization** | **Red Hat** | Automation Tooling, Scripting & Data Structures |
-| **Java Course Specialization** | **Scaler Topics** | OOP, JVM Architecture, Collections & Algorithms |
-| **Generative AI & Prompt Engineering** | **IBM Skills Network** | Foundation Models, AI Applications & Optimization |
+<br/><br/>
+
+<a href="https://github.com/roshangowdas">
+  <img src="assets/credentials-architecture-3d.svg" width="100%" alt="3D Verified Credentials & Architecture Pipeline" />
+</a>
 
 </div>
+
+<br/>
+
+```mermaid
+flowchart LR
+    subgraph L1["01 // FOUNDATION LAYER"]
+        C1["🌐 Cisco Networking Academy<br/><b>HTML & CSS Essentials</b><br/>• Semantic Web & Responsive Design<br/>• Accessible UX (WCAG 2.1 Compliance)"]
+    end
+
+    subgraph L2["02 // EXECUTION ENGINE"]
+        C2["⚡ Cisco Networking Academy<br/><b>JavaScript Essentials 1 & 2</b><br/>• ES6+, Event Loop & Memory Model<br/>• Asynchronous Execution & Closures"]
+    end
+
+    subgraph L3["03 // ENTERPRISE SYSTEMS"]
+        C3["☕ Scaler Topics<br/><b>Java Course Specialization</b><br/>• Object-Oriented Architecture<br/>• JVM Memory Internals & Collections"]
+    end
+
+    subgraph L4["04 // AUTOMATION RUNTIME"]
+        C4["🐍 Red Hat<br/><b>Python Programming Specialization</b><br/>• Automation Scripting & Tooling<br/>• High-Performance Data Utilities"]
+    end
+
+    subgraph L5["05 // COGNITIVE CLASS"]
+        C5["🧠 IBM Skills Network<br/><b>Generative AI & Prompt Engineering</b><br/>• Foundation Model Integration<br/>• Context Architecture & Optimization"]
+    end
+
+    L1 ==> L2 ==> L3 ==> L4 ==> L5
+```
+
+<br/>
+
+<details>
+<summary>🌐 <b>01. HTML &amp; CSS Essentials — Cisco Networking Academy (2025)</b></summary>
+<br/>
+
+> **Web Standards & Layout Discipline:** Mastered modern responsive design, cross-browser compatibility, CSS Flexbox/Grid architectures, and accessibility conformance according to W3C WCAG guidelines.
+> - **Issuing Authority:** Cisco Networking Academy
+> - **Skills Benchmarked:** Semantic HTML5, CSS3 Custom Properties, Responsive Viewport Optimization, Cross-Browser Rendering.
+
+</details>
+
+<details>
+<summary>⚡ <b>02. JavaScript Essentials 1 &amp; 2 — Cisco Networking Academy (2026)</b></summary>
+<br/>
+
+> **Runtime Execution & Deep Language Mechanics:** Advanced certification spanning ECMAScript 6+ specifications, synchronous and asynchronous execution stacks, the JavaScript event loop, closures, prototypal inheritance, and memory management.
+> - **Issuing Authority:** Cisco Networking Academy
+> - **Skills Benchmarked:** Async/Await, Promises, Closures, DOM Architecture, Functional Programming, Strict Scoping.
+
+</details>
+
+<details>
+<summary>☕ <b>03. Java Course Specialization — Scaler Topics (2026)</b></summary>
+<br/>
+
+> **Enterprise Object-Oriented Programming & JVM Internals:** Comprehensive training in strong-typed software design patterns, polymorphic architectures, robust exception management, and Java Collections framework algorithms.
+> - **Issuing Authority:** Scaler Topics
+> - **Skills Benchmarked:** Object-Oriented Analysis & Design, JVM Garbage Collection, Data Structures, Multithreading Concepts.
+
+</details>
+
+<details>
+<summary>🐍 <b>04. Python Programming Specialization — Red Hat (2026)</b></summary>
+<br/>
+
+> **System Automation & Scripting Infrastructure:** Engineered command-line tooling, automated test scripts, and data processing routines leveraging Python's standard library and modern ecosystem.
+> - **Issuing Authority:** Red Hat
+> - **Skills Benchmarked:** System Automation, File I/O Streams, Error Handling, Algorithmic Data Structures.
+
+</details>
+
+<details>
+<summary>🧠 <b>05. Generative AI &amp; Prompt Engineering — IBM Skills Network (2025)</b></summary>
+<br/>
+
+> **Foundation Models & Cognitive Pipelines:** Rigorous training in prompt engineering methodologies, context window optimization, few-shot conditioning, and generative AI application integration.
+> - **Issuing Authority:** IBM Skills Network (Cognitive Class)
+> - **Skills Benchmarked:** Prompt Design, Foundation Model Capabilities, Fine-Tuning Principles, Semantic Search & Retrieval.
+
+</details>
 
 ---
 
