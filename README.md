@@ -8,21 +8,44 @@
   <img src="assets/portfolio-hero-hud.svg" width="100%" alt="Roshan Gowda S - Full-Stack Engineer Telemetry" />
 </a>
 
-<br/>
+<br/><br/>
 
 <!-- Dynamic Interactive Typing Stream -->
 <a href="https://github.com/roshangowdas">
-  <img src="assets/typing-banner.svg" width="740" alt="Roshan Gowda S - Full-Stack Developer Stream" />
+  <img src="assets/typing-banner.svg" width="100%" alt="Roshan Gowda S - Full-Stack Developer Stream" />
 </a>
 
-<br/>
+<br/><br/>
 
-<!-- Interactive Quick Links -->
-[![Live Portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-120D0F?style=for-the-badge&logo=vercel&logoColor=EB1B38&labelColor=000000)](https://github.com/roshangowdas)
-[![npm react-status-kit](https://img.shields.io/badge/NPM_PACKAGE-react--status--kit-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~roshan__gowda)
-[![CollabSpace SaaS](https://img.shields.io/badge/COLLABSPACE-SAAS_REPO-161013?style=for-the-badge&logo=github&logoColor=EB1B38)](https://github.com/roshangowdas/CollabSpace)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roshan-gowda-s-378343283/)
-[![Email Direct](https://img.shields.io/badge/TRANSMIT_EMAIL-0243roshan%40gmail.com-EB1B38?style=for-the-badge&logo=gmail&logoColor=white)](mailto:0243roshan@gmail.com)
+<!-- Symmetric Action Badges: Tier 1 (Core Artifacts) -->
+<p align="center">
+  <a href="https://github.com/roshangowdas">
+    <img src="https://img.shields.io/badge/LIVE_PORTFOLIO-120D0F?style=for-the-badge&logo=vercel&logoColor=EB1B38&labelColor=000000" alt="Live Portfolio" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.npmjs.com/~roshan__gowda">
+    <img src="https://img.shields.io/badge/NPM_PACKAGE-react--status--kit-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm package" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/roshangowdas/CollabSpace">
+    <img src="https://img.shields.io/badge/COLLABSPACE-SAAS_REPO-161013?style=for-the-badge&logo=github&logoColor=EB1B38" alt="CollabSpace SaaS" />
+  </a>
+</p>
+
+<!-- Symmetric Action Badges: Tier 2 (Connect & Transmit) -->
+<p align="center">
+  <a href="https://github.com/roshangowdas">
+    <img src="https://img.shields.io/badge/GITHUB-PROFILE-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/roshan-gowda-s-378343283/">
+    <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:0243roshan@gmail.com">
+    <img src="https://img.shields.io/badge/TRANSMIT_EMAIL-0243roshan%40gmail.com-EB1B38?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Direct" />
+  </a>
+</p>
 
 </div>
 
@@ -233,6 +256,10 @@ $ roshan --contact
 
 <br/>
 
+<details>
+<summary>🔍 <b>Architecture Flowchart Spec (Click to inspect pipeline hierarchy)</b></summary>
+<br/>
+
 ```mermaid
 flowchart LR
     subgraph L1["01 // FOUNDATION LAYER"]
@@ -257,6 +284,8 @@ flowchart LR
 
     L1 ==> L2 ==> L3 ==> L4 ==> L5
 ```
+
+</details>
 
 <br/>
 

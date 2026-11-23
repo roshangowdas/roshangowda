@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 44" width="740" height="44">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 48" width="100%" height="100%">
   <defs>
     <linearGradient id="pillBg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#180b0f" />
-      <stop offset="50%" stop-color="#0e0608" />
+      <stop offset="50%" stop-color="#0c0507" />
       <stop offset="100%" stop-color="#180b0f" />
     </linearGradient>
     <linearGradient id="pillBorder" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#eb1b38" stop-opacity="0.6" />
+      <stop offset="0%" stop-color="#eb1b38" stop-opacity="0.65" />
       <stop offset="50%" stop-color="#3b151b" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#eb1b38" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#eb1b38" stop-opacity="0.65" />
     </linearGradient>
   </defs>
 
@@ -17,14 +17,14 @@
       font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
       font-weight: 700;
       font-size: 13.5px;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.05em;
     }
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
     .cursor-box {
-      animation: blink 0.85s infinite;
+      animation: blink 0.8s infinite;
     }
 
     /* CSS Text Animation cycling through 4 lines */
@@ -54,37 +54,43 @@
     .line-4 { animation: cycle4 12s infinite; }
   </style>
 
-  <!-- Container Pill -->
-  <rect x="1" y="1" width="738" height="42" rx="21" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2" />
+  <!-- Container Pill matching the 1000px HUD width -->
+  <rect x="1" y="1" width="998" height="46" rx="23" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2" />
 
   <!-- Prompt Icon -->
-  <g transform="translate(26, 27)">
+  <g transform="translate(36, 29)">
     <text fill="#eb1b38" class="font-mono" font-size="16" font-weight="900">&gt;</text>
   </g>
 
   <!-- Animated Text Lines -->
-  <g transform="translate(48, 27)" class="font-mono">
+  <g transform="translate(60, 29)" class="font-mono">
     <!-- Line 1 -->
     <g class="line-1">
-      <text fill="#f5ece3">FULL-STACK DEVELOPER // <tspan fill="#ff4d66">REACT 18</tspan> • <tspan fill="#eb1b38">NODE.JS</tspan> • <tspan fill="#f5ece3">TYPESCRIPT</tspan></text>
+      <text fill="#f5ece3">FULL-STACK DEVELOPER // <tspan fill="#ff4d66">REACT 18</tspan> • <tspan fill="#eb1b38">NODE.JS</tspan> • <tspan fill="#f5ece3">TYPESCRIPT</tspan> • <tspan fill="#a89589">MONGODB</tspan></text>
+      <rect x="585" y="-14" width="7" height="18" rx="1.5" fill="#eb1b38" class="cursor-box" />
     </g>
 
     <!-- Line 2 -->
     <g class="line-2">
-      <text fill="#f5ece3">OPEN-SOURCE AUTHOR // <tspan fill="#ff4d66">react-status-kit</tspan> ON NPM REGISTRY</text>
+      <text fill="#f5ece3">OPEN-SOURCE AUTHOR // <tspan fill="#ff4d66">react-status-kit</tspan> PUBLISHED ON OFFICIAL NPM REGISTRY</text>
+      <rect x="670" y="-14" width="7" height="18" rx="1.5" fill="#eb1b38" class="cursor-box" />
     </g>
 
     <!-- Line 3 -->
     <g class="line-3">
-      <text fill="#f5ece3">COLLABSPACE SAAS // <tspan fill="#38bdf8">16-TABLE POSTGRESQL RLS</tspan> • REAL-TIME KANBAN</text>
+      <text fill="#f5ece3">COLLABSPACE SAAS // <tspan fill="#38bdf8">16-TABLE POSTGRESQL RLS</tspan> • REAL-TIME SPRINT KANBAN</text>
+      <rect x="650" y="-14" width="7" height="18" rx="1.5" fill="#eb1b38" class="cursor-box" />
     </g>
 
     <!-- Line 4 -->
     <g class="line-4">
-      <text fill="#f5ece3">SOFTWARE DEVELOPER // <tspan fill="#22c55e">OPEN TO SWE ROLES</tspan> [BENGALURU / REMOTE]</text>
+      <text fill="#f5ece3">SOFTWARE DEVELOPER // <tspan fill="#22c55e">OPEN TO SWE ROLES</tspan> [BENGALURU, INDIA / REMOTE]</text>
+      <rect x="655" y="-14" width="7" height="18" rx="1.5" fill="#eb1b38" class="cursor-box" />
     </g>
   </g>
 
-  <!-- Blinking Cursor -->
-  <rect x="696" y="14" width="7" height="16" rx="1.5" fill="#eb1b38" class="cursor-box" />
+  <!-- Telemetry Indicator on Far Right -->
+  <g transform="translate(965, 29)">
+    <text text-anchor="end" fill="#804a52" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="0.1em">SYS_STREAM // 60 FPS</text>
+  </g>
 </svg>
