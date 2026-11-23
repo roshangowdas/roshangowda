@@ -12,7 +12,7 @@
 
 <!-- Dynamic Interactive Typing Stream -->
 <a href="https://github.com/roshangowdas">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=1000&color=EB1B38&center=true&vCenter=true&multiline=false&width=700&height=40&lines=FULL-STACK+DEVELOPER+•+REACT+18+•+NODE.JS+•+TYPESCRIPT;AUTHOR+OF+REACT-STATUS-KIT+ON+NPM+REGISTRY;COLLABSPACE+REAL-TIME+SAAS+•+SUPABASE+16-TABLE+RLS;COMMUNITY+RESOURCE+PLATFORM+•+10+RESTFUL+APIS+•+MONGODB;AVAILABLE+FOR+SOFTWARE+ENGINEERING+ROLES+IN+BENGALURU+%2F+REMOTE" alt="Roshan Gowda Dynamic Typist" />
+  <img src="assets/typing-banner.svg" width="740" alt="Roshan Gowda S - Full-Stack Developer Stream" />
 </a>
 
 <br/>

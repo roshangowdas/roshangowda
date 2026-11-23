@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 44" width="740" height="44">
+  <defs>
+    <linearGradient id="pillBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#180b0f" />
+      <stop offset="50%" stop-color="#0e0608" />
+      <stop offset="100%" stop-color="#180b0f" />
+    </linearGradient>
+    <linearGradient id="pillBorder" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eb1b38" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#3b151b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#eb1b38" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      font-weight: 700;
+      font-size: 13.5px;
+      letter-spacing: 0.04em;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor-box {
+      animation: blink 0.85s infinite;
+    }
+
+    /* CSS Text Animation cycling through 4 lines */
+    @keyframes cycle1 {
+      0%, 22% { opacity: 1; transform: translateY(0); }
+      25%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes cycle2 {
+      0%, 25% { opacity: 0; transform: translateY(4px); }
+      27%, 47% { opacity: 1; transform: translateY(0); }
+      50%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes cycle3 {
+      0%, 50% { opacity: 0; transform: translateY(4px); }
+      52%, 72% { opacity: 1; transform: translateY(0); }
+      75%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes cycle4 {
+      0%, 75% { opacity: 0; transform: translateY(4px); }
+      77%, 97% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    .line-1 { animation: cycle1 12s infinite; }
+    .line-2 { animation: cycle2 12s infinite; }
+    .line-3 { animation: cycle3 12s infinite; }
+    .line-4 { animation: cycle4 12s infinite; }
+  </style>
+
+  <!-- Container Pill -->
+  <rect x="1" y="1" width="738" height="42" rx="21" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1.2" />
+
+  <!-- Prompt Icon -->
+  <g transform="translate(26, 27)">
+    <text fill="#eb1b38" class="font-mono" font-size="16" font-weight="900">&gt;</text>
+  </g>
+
+  <!-- Animated Text Lines -->
+  <g transform="translate(48, 27)" class="font-mono">
+    <!-- Line 1 -->
+    <g class="line-1">
+      <text fill="#f5ece3">FULL-STACK DEVELOPER // <tspan fill="#ff4d66">REACT 18</tspan> • <tspan fill="#eb1b38">NODE.JS</tspan> • <tspan fill="#f5ece3">TYPESCRIPT</tspan></text>
+    </g>
+
+    <!-- Line 2 -->
+    <g class="line-2">
+      <text fill="#f5ece3">OPEN-SOURCE AUTHOR // <tspan fill="#ff4d66">react-status-kit</tspan> ON NPM REGISTRY</text>
+    </g>
+
+    <!-- Line 3 -->
+    <g class="line-3">
+      <text fill="#f5ece3">COLLABSPACE SAAS // <tspan fill="#38bdf8">16-TABLE POSTGRESQL RLS</tspan> • REAL-TIME KANBAN</text>
+    </g>
+
+    <!-- Line 4 -->
+    <g class="line-4">
+      <text fill="#f5ece3">SOFTWARE DEVELOPER // <tspan fill="#22c55e">OPEN TO SWE ROLES</tspan> [BENGALURU / REMOTE]</text>
+    </g>
+  </g>
+
+  <!-- Blinking Cursor -->
+  <rect x="696" y="14" width="7" height="16" rx="1.5" fill="#eb1b38" class="cursor-box" />
+</svg>
