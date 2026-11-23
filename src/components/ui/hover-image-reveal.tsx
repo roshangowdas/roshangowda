@@ -59,8 +59,21 @@ export interface HoverImageRevealProps {
   onSelectProject?: (item: HoverRevealItem) => void;
 }
 
-// Exactly the 3 projects present in the resume
+// Key production and open-source projects
 const DEFAULT_ITEMS_DATA: HoverRevealItem[] = [
+  {
+    text: "COLLABSPACE",
+    subtitle: "Production-Grade Team Collaboration SaaS • Sprint Kanban • Docs • Supabase RLS",
+    category: "Full-Stack Real-Time SaaS",
+    year: "2026",
+    tech: ["React.js", "Vite", "Supabase", "PostgreSQL", "Tailwind CSS", "Row Level Security", "WebSockets"],
+    image: {
+      src: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      alt: "CollabSpace Real-Time Collaboration Platform",
+    },
+    link: "https://github.com/roshangowdas/CollabSpace",
+    github: "https://github.com/roshangowdas/CollabSpace",
+  },
   {
     text: "COMMUNITY RESOURCE SHARING PLATFORM",
     subtitle: "MERN Stack • MongoDB • Firebase Auth • 10 Secured REST APIs",
@@ -71,8 +84,8 @@ const DEFAULT_ITEMS_DATA: HoverRevealItem[] = [
       src: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
       alt: "Community Resource Sharing Platform",
     },
-    link: "https://github.com",
-    github: "https://github.com",
+    link: "https://github.com/roshangowdas",
+    github: "https://github.com/roshangowdas",
   },
   {
     text: "REACT-STATUS-KIT",
@@ -84,9 +97,9 @@ const DEFAULT_ITEMS_DATA: HoverRevealItem[] = [
       src: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
       alt: "react-status-kit npm package",
     },
-    link: "https://www.npmjs.com/package/react-status-kit",
-    github: "https://github.com",
-    npm: "https://www.npmjs.com/package/react-status-kit",
+    link: "https://www.npmjs.com/~roshan__gowda",
+    github: "https://github.com/roshangowdas",
+    npm: "https://www.npmjs.com/~roshan__gowda",
   },
   {
     text: "AI-PETCARE",
@@ -98,16 +111,17 @@ const DEFAULT_ITEMS_DATA: HoverRevealItem[] = [
       src: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
       alt: "AI-PetCare Interactive Health Dashboard",
     },
-    link: "https://github.com",
-    github: "https://github.com",
+    link: "https://github.com/roshangowdas",
+    github: "https://github.com/roshangowdas",
   },
 ];
 
 const DEFAULT_ITEMS: ItemsValue = {
-  itemCount: 3,
+  itemCount: 4,
   item1: DEFAULT_ITEMS_DATA[0],
   item2: DEFAULT_ITEMS_DATA[1],
   item3: DEFAULT_ITEMS_DATA[2],
+  item4: DEFAULT_ITEMS_DATA[3],
 };
 
 const DEFAULT_FONT: FontValue = {

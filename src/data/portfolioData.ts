@@ -58,7 +58,7 @@ export const PORTFOLIO_DATA = {
     },
     stats: [
       { label: "Focus", value: "React & Node" },
-      { label: "Shipped", value: "5+ Web Apps" },
+      { label: "Shipped", value: "6+ Web Apps" },
       { label: "Open Source", value: "react-status-kit" },
       { label: "Status", value: "Open to Roles" }
     ]
@@ -71,13 +71,31 @@ export const PORTFOLIO_DATA = {
       languages: ["JavaScript (ES6+)", "TypeScript", "Java", "Python", "SQL", "C++"],
       frontend: ["React.js", "Tailwind CSS", "HTML5 & Semantic Web", "CSS3 / Modern Layouts"],
       backend: ["Node.js", "Express.js", "RESTful API Design", "Firebase Authentication"],
-      databases: ["MongoDB (Mongoose)", "SQL"],
+      databases: ["MongoDB (Mongoose)", "PostgreSQL (Supabase)", "SQL"],
       tools: ["Git & GitHub", "npm Packaging", "Vite", "VS Code", "Postman"]
     },
     approach: "I prefer clear, readable code over clever abstractions. Whether implementing a multi-step user flow or publishing an npm library, my focus is on thoughtful ergonomics, thorough testing, and shipping software that works reliably."
   },
 
   projects: [
+    {
+      id: "collabspace",
+      title: "CollabSpace",
+      subtitle: "Production-grade team collaboration SaaS with Supabase & RLS",
+      description: "A comprehensive real-time team collaboration platform featuring sprint Kanban boards, rich-text collaborative document editing, interactive digital whiteboards, Supabase Row-Level Security (RLS), and fine-grained workspace permissions.",
+      impact: "Architected multi-tenant database across 16 PostgreSQL tables with RLS policies, sliding-window rate limiting, XSS input sanitization, and 100% test pass rate across 74 unit tests and 17 security audit domains.",
+      tags: ["React", "Vite", "Supabase", "PostgreSQL", "Tailwind CSS", "Realtime", "Security", "SaaS"],
+      tech: ["React.js", "Vite", "Supabase", "PostgreSQL", "Tailwind CSS", "Row Level Security (RLS)", "WebSockets", "Lucide React"],
+      stats: [
+        { label: "Database", value: "16-Table RLS" },
+        { label: "Testing", value: "74 Unit / 17 Security" },
+        { label: "Architecture", value: "Multi-Tenant SaaS" }
+      ],
+      year: "2026",
+      demoUrl: "https://github.com/roshangowdas/CollabSpace",
+      githubUrl: "https://github.com/roshangowdas/CollabSpace",
+      featured: true
+    },
     {
       id: "community-resource-platform",
       title: "Community Resource Sharing Platform",

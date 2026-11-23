@@ -61,6 +61,8 @@ EXPERIENCE:
   - Structured modular REST APIs and implemented responsive UI components with clean state management.
 
 KEY PROJECTS:
+• CollabSpace (2026): Real-Time Team Collaboration SaaS • Supabase RLS • Kanban & Docs
+  - Multi-tenant team workspace with 16-table PostgreSQL RLS, realtime sync, sprint boards & document editing.
 • Community Resource Sharing Platform (2026): MERN Stack, MongoDB, Firebase Auth, 10 REST APIs
   - Real-time community resource exchange platform with secured Firebase authentication and MongoDB indexing.
 • react-status-kit (2026): Open-Source React component library published on npm
@@ -358,8 +360,24 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                   <span>Key Projects</span>
                 </h2>
 
-                {/* Project 1 */}
+                {/* Project 1: CollabSpace */}
                 <div className="space-y-1">
+                  <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 text-sm font-bold text-white print:text-black">
+                    <span>CollabSpace (Real-Time Team Collaboration SaaS)</span>
+                    <span className="text-xs font-mono font-normal text-[#eb1b38] print:text-black">
+                      Supabase &amp; React • 2026
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#a89589] print:text-black/70 font-mono">
+                    React.js, Vite, Supabase, PostgreSQL, Tailwind CSS, Row Level Security (RLS), WebSockets
+                  </p>
+                  <p className="text-xs sm:text-[13px] text-[#c2b1a3] print:text-black/85 leading-relaxed">
+                    Engineered a multi-tenant collaboration workspace featuring 16 PostgreSQL tables, strict Row Level Security policies, real-time Kanban boards, collaborative document editing, sliding-window rate limiting, and 100% test pass rate across 74 unit tests and 17 security audit domains.
+                  </p>
+                </div>
+
+                {/* Project 2: Community Resource Sharing Platform */}
+                <div className="space-y-1 pt-1">
                   <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 text-sm font-bold text-white print:text-black">
                     <span>Community Resource Sharing Platform</span>
                     <span className="text-xs font-mono font-normal text-[#a89589] print:text-black">

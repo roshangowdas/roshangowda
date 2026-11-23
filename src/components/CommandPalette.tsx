@@ -250,7 +250,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
         break;
       case "projects":
         output =
-          "1. Community Resource Sharing Platform (MERN, MongoDB, Firebase Auth, 10 REST APIs)\n2. react-status-kit (Published on npm registry, zero dependencies)\n3. AI-PetCare (Responsive diagnostic dashboard)";
+          "1. CollabSpace (Real-time team collaboration SaaS, 16-table Supabase RLS, Kanban, Docs, Whiteboards)\n2. Community Resource Sharing Platform (MERN, MongoDB, Firebase Auth, 10 REST APIs)\n3. react-status-kit (Published on npm registry, zero dependencies)\n4. AI-PetCare (Responsive diagnostic dashboard)";
         break;
       case "npm":
         output = (

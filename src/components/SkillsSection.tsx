@@ -314,8 +314,8 @@ export const SkillsSection: React.FC = () => {
         className="w-full h-8 sm:h-9 flex items-center justify-center border-b border-[#241a1a]/30 mb-2 sm:mb-4"
       >
         <LEDTicker
-          items={["Technical Skills", "MERN Stack", "RESTful APIs", "react-status-kit", "Open-Source npm"]}
-          separator="â— "
+          items={["Technical Skills", "CollabSpace SaaS", "MERN Stack", "RESTful APIs", "react-status-kit", "Open-Source npm"]}
+          separator="●"
           speed={prefersReducedMotion ? 0 : 22}
           textSize={34}
           dotSize={5}

@@ -64,6 +64,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         `  - Built 5 responsive full-stack web applications using React.js, Node.js, Express.js, MongoDB.\n` +
         `  - Structured modular REST APIs and implemented responsive UI components with clean state management.\n\n` +
         `KEY PROJECTS:\n` +
+        `• CollabSpace (2026): Real-Time Team Collaboration SaaS with Supabase, 16-table RLS, Kanban, Docs & Whiteboards\n` +
         `• Community Resource Sharing Platform (2026): MERN Stack, MongoDB, Firebase Auth, 10 REST APIs\n` +
         `• react-status-kit (2026): Open-Source React component library published on npm\n` +
         `• AI-PetCare (2025): Interactive pet health monitoring web interface\n\n` +

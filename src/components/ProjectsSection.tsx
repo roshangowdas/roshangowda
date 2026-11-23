@@ -10,8 +10,21 @@ const NpmIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
   </svg>
 );
 
-// Exactly and only the 3 projects present in the resume
+// Key production & open-source projects
 const RESUME_PROJECTS: HoverRevealItem[] = [
+  {
+    text: "COLLABSPACE",
+    subtitle: "Production-Grade Team Collaboration SaaS • Sprint Kanban • Docs • Supabase RLS",
+    category: "Full-Stack Real-Time SaaS",
+    year: "2026",
+    tech: ["React.js", "Vite", "Supabase", "PostgreSQL", "Tailwind CSS", "Row Level Security", "WebSockets"],
+    image: {
+      src: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      alt: "CollabSpace Real-Time Collaboration Platform",
+    },
+    link: "https://github.com/roshangowdas/CollabSpace",
+    github: "https://github.com/roshangowdas/CollabSpace",
+  },
   {
     text: "COMMUNITY RESOURCE SHARING PLATFORM",
     subtitle: "MERN Stack • MongoDB • Firebase Auth • 10 REST APIs",
@@ -55,10 +68,11 @@ const RESUME_PROJECTS: HoverRevealItem[] = [
 ];
 
 const HOVER_ITEMS: ItemsValue = {
-  itemCount: 3,
+  itemCount: 4,
   item1: RESUME_PROJECTS[0],
   item2: RESUME_PROJECTS[1],
   item3: RESUME_PROJECTS[2],
+  item4: RESUME_PROJECTS[3],
 };
 
 export const ProjectsSection: React.FC = () => {
@@ -279,7 +293,7 @@ export const ProjectsSection: React.FC = () => {
                       rel="noopener noreferrer"
                       className="px-4 py-1.5 rounded-full bg-[#eb1b38] hover:bg-[#ff2a4b] text-white font-mono text-xs font-bold transition-all shadow-[0_0_15px_rgba(235,27,56,0.4)] flex items-center gap-1.5"
                     >
-                      <span>Open Project</span>
+                      <span>{selectedProject.link.includes("github.com") ? "View Repository" : "Open Project"}</span>
                       <ExternalLink className="w-3.5 h-3.5" />
                     </a>
                   )}

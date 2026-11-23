@@ -161,7 +161,7 @@ export const NavModals: React.FC<NavModalsProps> = ({ activeModal, onClose }) =>
               <div className="flex items-center justify-between border-b border-white/5 pb-3">
                 <span className="font-mono text-xs text-zinc-400">FILTER PROJECTS:</span>
                 <div className="flex gap-1.5 font-mono text-xs">
-                  {["ALL", "MERN", "REACT", "NPM"].map((f) => (
+                  {["ALL", "SAAS", "MERN", "REACT", "NPM"].map((f) => (
                     <button
                       key={f}
                       onClick={() => setActiveProjectFilter(f)}
