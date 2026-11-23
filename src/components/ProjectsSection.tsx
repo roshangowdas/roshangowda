@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { ExternalLink, X, Zap } from "lucide-react";
 import HoverImageReveal, { HoverRevealItem, ItemsValue } from "./ui/hover-image-reveal";
 import ReactStatusKitPlayground from "./ReactStatusKitPlayground";
-import Signature from "./ui/signature";
 
 const NpmIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor">
@@ -163,34 +162,6 @@ export const ProjectsSection: React.FC = () => {
             offsetX={190}
             offsetY={-30}
             onSelectProject={handleSelectProject}
-          />
-        </motion.div>
-
-        {/* Developer Signature & Verification Card (React Bits Pro Style) */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "0px 0px -40px 0px" }}
-          transition={{ duration: 0.8, delay: 0.25, ease: [0.25, 0.1, 0.25, 1] }}
-          className="w-full mt-10 sm:mt-14 max-w-2xl mx-auto flex flex-col items-center"
-        >
-          <div className="flex items-center gap-2 mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#eb1b38]" />
-            <span className="font-mono text-[11px] text-[#a89589] uppercase tracking-wider">
-              AUTHOR VERIFICATION &amp; DIGITAL INK SIGNATURE
-            </span>
-          </div>
-
-          <Signature
-            name="Roshan Gowda S"
-            role="Full-Stack Developer & Software Engineer"
-            autoplay={true}
-            speed={1.05}
-            surfaceColor="#120e10"
-            inkColor="#f5ece3"
-            pen="fountain"
-            thickness={1}
-            allowToggleMode={true}
           />
         </motion.div>
       </div>
